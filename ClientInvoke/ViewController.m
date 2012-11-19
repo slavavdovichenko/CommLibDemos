@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "BinaryCodec.h"
+#import "DEBUG.h"
 
 #define BARBUTTON(TITLE, SELECTOR) [[UIBarButtonItem alloc] initWithTitle:TITLE style:UIBarButtonItemStylePlain target:self action:SELECTOR]
 
@@ -105,7 +106,7 @@
 	// set call parameters
 	NSMutableArray *args = [NSMutableArray array];
 	NSString *method = @"echoInt";
-	[args addObject:[NSNumber numberWithInt:12]];	
+	[args addObject:[NSNumber numberWithInt:12]];
 	// send invoke
 	[socket invoke:method withArgs:args responder:[AsynCall call:self method:@selector(onEchoInt:)]];
 }
@@ -129,7 +130,7 @@
 	NSMutableArray *args = [NSMutableArray array];
 	// set call parameters
 	NSString *method = @"echoString";
-	//[args addObject:[NSString stringWithString:@"Hello, WebORB!"]];
+	//[args addObject:@"Hello, WebORB!"];
 	[args addObject:@"Привет, ВебОРБ!"];
 	// sendinvoke
 	[socket invoke:method withArgs:args responder:[AsynCall call:self method:@selector(onEchoString:)]];
@@ -376,6 +377,7 @@
 	appTextField.returnKeyType = UIReturnKeyDone;
 	appTextField.clearButtonMode = UITextFieldViewModeWhileEditing;
 	appTextField.text = @"ClientInvoke";
+	//appTextField.text = @"MethodInvocation";
 	appTextField.delegate = self;
 	[self.view addSubview:appTextField];
 	//[appTextField release];
@@ -463,6 +465,8 @@
 	alerts = 100;
 	state = 0;
     socket = nil;
+    
+    [DebLog setIsActive:YES];
 
     // Do any additional setup after loading the view, typically from a nib.
 }

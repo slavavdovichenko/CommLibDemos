@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "DEBUG.h"
 
 #define BARBUTTON(TITLE, SELECTOR) [[UIBarButtonItem alloc] initWithTitle:TITLE style:UIBarButtonItemStylePlain target:self action:SELECTOR]
 
@@ -219,6 +220,8 @@
 	alerts = 100;
 	state = 0;
     socket = nil;
+    
+    [DebLog setIsActive:YES];
     
 	// Do any additional setup after loading the view, typically from a nib.
 }

@@ -10,6 +10,7 @@
 #import <mach/mach.h>
 #import <mach/mach_host.h>
 #import "BinaryCodec.h"
+#import "DEBUG.h"
 
 #define BARBUTTON(TITLE, SELECTOR) [[UIBarButtonItem alloc] initWithTitle:TITLE style:UIBarButtonItemStylePlain target:self action:SELECTOR]
 
@@ -291,8 +292,8 @@
 	appTextField.returnKeyType = UIReturnKeyDone;
 	appTextField.clearButtonMode = UITextFieldViewModeWhileEditing;
 	//appTextField.text = @"SharedObjectsApp";
-	appTextField.text = @"SharedBall";
-	//appTextField.text = @"demo";
+	//appTextField.text = @"SharedBall";
+	appTextField.text = @"live";
 	appTextField.delegate = self;
 	[self.view addSubview:appTextField];
 	//[appTextField release];
@@ -318,6 +319,8 @@
     socket = nil;
     clientSO = nil;
     
+    [DebLog setIsActive:YES];
+   
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

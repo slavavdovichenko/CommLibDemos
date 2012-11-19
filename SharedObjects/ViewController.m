@@ -76,8 +76,6 @@
         [self showAlert:@"clientSO is absent or disconnected!\n Push 'connectSO' button\n"];
         return;
     }
- 	
-    NSLog(@"*****************>>>> getAttributeSO: %@ (attributes = %@)", [clientSO getName], [clientSO getAttributeNames]);
     
     intSO += 5;
     floatSO += 5.7f;
@@ -88,6 +86,8 @@
     [dict setValue:[NSNumber numberWithInt:intSO] forKey:@"intVal" ];
     [dict setValue:[NSNumber numberWithFloat:floatSO] forKey:@"floatVal" ];
     [dict setValue:[NSNumber numberWithBool:YES] forKey:@"boolVal" ];
+ 	
+    NSLog(@"*****************>>>> getAttributeSO: %@ (attributes = %@)", [clientSO getName], dict);
     
     [clientSO setAttributes:dict];
 }
