@@ -288,11 +288,11 @@
 	hostTextField.clearButtonMode = UITextFieldViewModeWhileEditing;
 	//hostTextField.text = @"examples.themidnightcoders.com";
 	//hostTextField.text = @"10.0.1.141";
-	hostTextField.text = @"192.168.2.63";
+	//hostTextField.text = @"192.168.2.63";
 	//hostTextField.text = @"23.20.183.103"; // @"stage1.oncam.com";
 	//hostTextField.text = @"localhost";
 	//hostTextField.text = @"10.0.1.14";
-	//hostTextField.text = @"10.0.1.17";
+	hostTextField.text = @"10.0.1.33";
 	hostTextField.delegate = self;
 	[self.view addSubview:hostTextField];
 	//[hostTextField release];
@@ -316,10 +316,10 @@
 	appTextField.placeholder = @"app";
 	appTextField.returnKeyType = UIReturnKeyDone;
 	appTextField.clearButtonMode = UITextFieldViewModeWhileEditing;
-	appTextField.text = @"SharedBall";
+	//appTextField.text = @"SharedBall";
 	//appTextField.text = @"SharedObjectsApp";
 	//appTextField.text = @"root";
-	//appTextField.text = @"live";
+	appTextField.text = @"live";
 	appTextField.delegate = self;
 	[self.view addSubview:appTextField];
 	//[appTextField release];
