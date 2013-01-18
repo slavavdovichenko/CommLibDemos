@@ -285,7 +285,8 @@ enum touch_state
 	hostTextField.returnKeyType = UIReturnKeyDone;
 	hostTextField.clearButtonMode = UITextFieldViewModeWhileEditing;
 	//hostTextField.text = @"examples.themidnightcoders.com";
-	hostTextField.text = @"10.0.1.141";
+	//hostTextField.text = @"10.0.1.141";
+	hostTextField.text = @"10.0.1.33";
 	hostTextField.delegate = self;
 	[self.view addSubview:hostTextField];
 	//[hostTextField release];
@@ -297,7 +298,8 @@ enum touch_state
     portTextField.keyboardType = UIKeyboardTypeNumbersAndPunctuation;
 	portTextField.returnKeyType = UIReturnKeyDone;
 	portTextField.clearButtonMode = UITextFieldViewModeWhileEditing;
-	portTextField.text = @"2037";
+	//portTextField.text = @"2037";
+	portTextField.text = @"1935";
 	portTextField.delegate = self;
 	[self.view addSubview:portTextField];
 	//[portTextField release];
@@ -308,7 +310,8 @@ enum touch_state
 	appTextField.placeholder = @"app";
 	appTextField.returnKeyType = UIReturnKeyDone;
 	appTextField.clearButtonMode = UITextFieldViewModeWhileEditing;
-	appTextField.text = @"SharedObjectsApp";
+	//appTextField.text = @"SharedObjectsApp";
+	appTextField.text = @"live";
 	appTextField.delegate = self;
 	[self.view addSubview:appTextField];
 	//[appTextField release];
