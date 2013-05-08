@@ -92,6 +92,14 @@
 		F959131814DC134C00A3EB94 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F959131214DC132900A3EB94 /* CFNetwork.framework */; };
 		F959131914DC135100A3EB94 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F959131214DC132900A3EB94 /* CFNetwork.framework */; };
 		F96A9C6C149FF13D000F1FC7 /* weborb.png in Resources */ = {isa = PBXBuildFile; fileRef = F96A9C5D149FEF2B000F1FC7 /* weborb.png */; };
+		F97C891B1705852700F0B611 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F97C89191705850200F0B611 /* CoreData.framework */; };
+		F97C891C1705852D00F0B611 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F97C89191705850200F0B611 /* CoreData.framework */; };
+		F97C891D1705853300F0B611 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F97C89191705850200F0B611 /* CoreData.framework */; };
+		F97C891E1705853A00F0B611 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F97C89191705850200F0B611 /* CoreData.framework */; };
+		F97C891F1705854100F0B611 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F97C89191705850200F0B611 /* CoreData.framework */; };
+		F97C89201705854700F0B611 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F97C89191705850200F0B611 /* CoreData.framework */; };
+		F97C89211705854D00F0B611 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F97C89191705850200F0B611 /* CoreData.framework */; };
+		F97C89221705855900F0B611 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F97C89191705850200F0B611 /* CoreData.framework */; };
 		F998ECDA15C030AB000D49EA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E0B681149F607800262B0A /* UIKit.framework */; };
 		F998ECDB15C030AB000D49EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E0B683149F607800262B0A /* Foundation.framework */; };
 		F998ECDC15C030AB000D49EA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E0B685149F607800262B0A /* CoreGraphics.framework */; };
@@ -211,6 +219,7 @@
 		F96A9C5C149FEF2B000F1FC7 /* ServerCallback.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ServerCallback.png; sourceTree = "<group>"; };
 		F96A9C5D149FEF2B000F1FC7 /* weborb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = weborb.png; sourceTree = "<group>"; };
 		F96A9C5E149FEF2B000F1FC7 /* WhiteboardDemo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WhiteboardDemo.png; sourceTree = "<group>"; };
+		F97C89191705850200F0B611 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		F998ECD815C030AB000D49EA /* SharedPhoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SharedPhoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F998ECDF15C030AB000D49EA /* SharedPhoto-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SharedPhoto-Info.plist"; sourceTree = "<group>"; };
 		F998ECE115C030AB000D49EA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -265,6 +274,7 @@
 			files = (
 				F9046D0C155D42AA00658F91 /* UIKit.framework in Frameworks */,
 				F9046D0D155D42AA00658F91 /* Foundation.framework in Frameworks */,
+				F97C89211705854D00F0B611 /* CoreData.framework in Frameworks */,
 				F9046D0E155D42AA00658F91 /* CoreGraphics.framework in Frameworks */,
 				F9046D27155D430400658F91 /* Security.framework in Frameworks */,
 				F9046D28155D430700658F91 /* CFNetwork.framework in Frameworks */,
@@ -278,6 +288,7 @@
 			files = (
 				F90E309B14A1012E00F183FC /* UIKit.framework in Frameworks */,
 				F90E309C14A1012E00F183FC /* Foundation.framework in Frameworks */,
+				F97C891C1705852D00F0B611 /* CoreData.framework in Frameworks */,
 				F90E309D14A1012E00F183FC /* CoreGraphics.framework in Frameworks */,
 				F90E30B814A1027F00F183FC /* Security.framework in Frameworks */,
 				F959131514DC133900A3EB94 /* CFNetwork.framework in Frameworks */,
@@ -291,6 +302,7 @@
 			files = (
 				F90E30C114A10F3800F183FC /* UIKit.framework in Frameworks */,
 				F90E30C214A10F3800F183FC /* Foundation.framework in Frameworks */,
+				F97C891D1705853300F0B611 /* CoreData.framework in Frameworks */,
 				F90E30C314A10F3800F183FC /* CoreGraphics.framework in Frameworks */,
 				F90E30DE14A10FB400F183FC /* Security.framework in Frameworks */,
 				F959131614DC134300A3EB94 /* CFNetwork.framework in Frameworks */,
@@ -304,6 +316,7 @@
 			files = (
 				F90E30E614A1150800F183FC /* UIKit.framework in Frameworks */,
 				F90E30E714A1150800F183FC /* Foundation.framework in Frameworks */,
+				F97C891E1705853A00F0B611 /* CoreData.framework in Frameworks */,
 				F90E30E814A1150800F183FC /* CoreGraphics.framework in Frameworks */,
 				F90E314514A11F4C00F183FC /* Security.framework in Frameworks */,
 				F959131714DC134600A3EB94 /* CFNetwork.framework in Frameworks */,
@@ -317,6 +330,7 @@
 			files = (
 				F90E310714A1153800F183FC /* UIKit.framework in Frameworks */,
 				F90E310814A1153800F183FC /* Foundation.framework in Frameworks */,
+				F97C891F1705854100F0B611 /* CoreData.framework in Frameworks */,
 				F90E310914A1153800F183FC /* CoreGraphics.framework in Frameworks */,
 				F90E314914A11F7F00F183FC /* Security.framework in Frameworks */,
 				F959131814DC134C00A3EB94 /* CFNetwork.framework in Frameworks */,
@@ -330,6 +344,7 @@
 			files = (
 				F90E312814A1155E00F183FC /* UIKit.framework in Frameworks */,
 				F90E312914A1155E00F183FC /* Foundation.framework in Frameworks */,
+				F97C89201705854700F0B611 /* CoreData.framework in Frameworks */,
 				F90E312A14A1155E00F183FC /* CoreGraphics.framework in Frameworks */,
 				F90E314D14A11F9E00F183FC /* Security.framework in Frameworks */,
 				F959131914DC135100A3EB94 /* CFNetwork.framework in Frameworks */,
@@ -342,6 +357,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F998ECFA15C0310C000D49EA /* AVFoundation.framework in Frameworks */,
+				F97C89221705855900F0B611 /* CoreData.framework in Frameworks */,
 				F998ECF915C03107000D49EA /* CoreMedia.framework in Frameworks */,
 				F998ECF815C03103000D49EA /* CoreVideo.framework in Frameworks */,
 				F998ECF715C030FE000D49EA /* CFNetwork.framework in Frameworks */,
@@ -359,6 +375,7 @@
 			files = (
 				F9E0B6B2149FD07D00262B0A /* UIKit.framework in Frameworks */,
 				F9E0B6B3149FD07D00262B0A /* Foundation.framework in Frameworks */,
+				F97C891B1705852700F0B611 /* CoreData.framework in Frameworks */,
 				F9E0B6B4149FD07D00262B0A /* CoreGraphics.framework in Frameworks */,
 				F9E0B6CF149FD18E00262B0A /* Security.framework in Frameworks */,
 				F9A7CF5A14F0439E009E6563 /* CFNetwork.framework in Frameworks */,
@@ -615,6 +632,7 @@
 				F9E0B681149F607800262B0A /* UIKit.framework */,
 				F9E0B683149F607800262B0A /* Foundation.framework */,
 				F9E0B685149F607800262B0A /* CoreGraphics.framework */,
+				F97C89191705850200F0B611 /* CoreData.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1379,7 +1397,7 @@
 		F90E312014A1153900F183FC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: Vyacheslav Vdovichenko (7ZR8MVB488)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SharedBall/SharedBall-Prefix.pch";
@@ -1389,7 +1407,7 @@
 					"\"$(SRCROOT)/CommLibiOS\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "D7107EB7-A83B-44C3-844C-AF020BB03C22";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -1397,7 +1415,7 @@
 		F90E312114A1153900F183FC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: Vyacheslav Vdovichenko (7ZR8MVB488)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SharedBall/SharedBall-Prefix.pch";
@@ -1407,7 +1425,7 @@
 					"\"$(SRCROOT)/CommLibiOS\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "D7107EB7-A83B-44C3-844C-AF020BB03C22";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -1448,7 +1466,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Vyacheslav Vdovichenko (7ZR8MVB488)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SharedPhoto/SharedPhoto-Prefix.pch";
@@ -1460,7 +1478,7 @@
 					"\"$(SRCROOT)/CommLibiOS\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "82555BA9-64A2-46E1-A673-DBD39FD6BA08";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -1469,7 +1487,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Vyacheslav Vdovichenko (7ZR8MVB488)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SharedPhoto/SharedPhoto-Prefix.pch";
@@ -1481,7 +1499,7 @@
 					"\"$(SRCROOT)/CommLibiOS\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "82555BA9-64A2-46E1-A673-DBD39FD6BA08";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
