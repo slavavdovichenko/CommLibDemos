@@ -19,7 +19,9 @@
 @class CrowdNode, RTMProtocol, Packet;
 @protocol IStreamDispatcher, IPendingServiceCall;
 
-@interface RTMPClient : NSObject <NSStreamDelegate> {
+@interface RTMPClient : NSObject <NSStreamDelegate>
+//
+{
 	// delegates
     NSMutableArray  *owners;
 		
@@ -59,6 +61,7 @@
 	
 	// test
 }
+//
 @property (nonatomic, assign, getter = getDelegates, setter = addDelegate:) id <IRTMPClientDelegate> delegate;
 @property float	timeoutHandshake;
 
@@ -87,10 +90,12 @@
 // set client chunk size
 -(void)setClientChunkSize:(int)size;
 
-// hidden public - only for internal usage 
+// hidden public - only for internal usage
+-(int)nextInvokeId;
 -(void)sendMessage:(Packet *)message;
 -(int)invoke:(NSString *)method withArgs:(NSArray *)args responder:(id <IPendingServiceCallback>)responder transactionID:(int)tID channelId:(int)cID  streamId:(int)sID;
 -(void)flexInvoke:(NSString *)method message:(id)obj responder:(id <IPendingServiceCallback>)responder;
+-(void)metadata:(NSDictionary *)data streamId:(int)streamId channelId:(int)channelId timestamp:(int)timestamp;
 -(void)clearPendingCalls;
 // stream
 -(BOOL)addStreamPlayer:(id <IStreamDispatcher>)player streamId:(int)streamId;

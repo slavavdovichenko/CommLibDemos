@@ -7,13 +7,20 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <CoreData/CoreData.h>
 
+/*******************************************************************************************************
+ * Types singleton accessor: this is how you should ALWAYS get a reference to the Types class instance *
+ *******************************************************************************************************/
+#define __types [Types sharedInstance]
 
 @interface Types : NSObject {
 	NSMutableDictionary	*abstractMappings;
 	NSMutableDictionary	*clientMappings;
 	NSMutableDictionary	*serverMappings;
 }
+@property (nonatomic, retain) NSManagedObjectModel *managedObjectModel;
+@property (nonatomic, retain) NSManagedObjectContext *managedObjectContext;
 
 // Singleton accessor:  this is how you should ALWAYS get a reference to the class instance.  Never init your own. 
 +(Types *)sharedInstance;
@@ -44,5 +51,10 @@
 @interface NSMutableDictionary (Class)
 -(void)setObject:(id)anObject forClassKey:(Class)classKey;
 -(void)setObject:(id)anObject forObjectKey:(id)objectKey;
+@end
+
+@interface NSObject (AMF)
+-(void)onAMFSerialaize;
+-(void)onAMFDeserialaze;
 @end
 
