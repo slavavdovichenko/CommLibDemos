@@ -234,6 +234,10 @@
 		F9CAAD2A15B5A643002C77A9 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		F9CAAD2B15B5A643002C77A9 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		F9CAAD2C15B5A643002C77A9 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		F9DB04FA17C6744600420AA8 /* AMFSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMFSerializer.h; sourceTree = "<group>"; };
+		F9DB04FB17C6744600420AA8 /* BinaryStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BinaryStream.h; sourceTree = "<group>"; };
+		F9DB04FC17C6744600420AA8 /* FlashorbBinaryReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlashorbBinaryReader.h; sourceTree = "<group>"; };
+		F9DB04FD17C6744600420AA8 /* FlashorbBinaryWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlashorbBinaryWriter.h; sourceTree = "<group>"; };
 		F9E0B681149F607800262B0A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F9E0B683149F607800262B0A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F9E0B685149F607800262B0A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -684,6 +688,10 @@
 		F9E0B6D5149FD21800262B0A /* include */ = {
 			isa = PBXGroup;
 			children = (
+				F9DB04FA17C6744600420AA8 /* AMFSerializer.h */,
+				F9DB04FB17C6744600420AA8 /* BinaryStream.h */,
+				F9DB04FC17C6744600420AA8 /* FlashorbBinaryReader.h */,
+				F9DB04FD17C6744600420AA8 /* FlashorbBinaryWriter.h */,
 				F9046D2A155D471B00658F91 /* DEBUG.h */,
 				F9046D2B155D471B00658F91 /* MemoryTicker.h */,
 				F9046D2C155D471B00658F91 /* Types.h */,
