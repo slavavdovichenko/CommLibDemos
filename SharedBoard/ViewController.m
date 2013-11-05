@@ -286,7 +286,7 @@ enum touch_state
 	hostTextField.clearButtonMode = UITextFieldViewModeWhileEditing;
 	//hostTextField.text = @"examples.themidnightcoders.com";
 	//hostTextField.text = @"10.0.1.141";
-	hostTextField.text = @"10.0.1.33";
+	hostTextField.text = @"80.74.155.7";
 	hostTextField.delegate = self;
 	[self.view addSubview:hostTextField];
 	//[hostTextField release];

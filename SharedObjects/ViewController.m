@@ -288,9 +288,9 @@
 	hostTextField.clearButtonMode = UITextFieldViewModeWhileEditing;
 	//hostTextField.text = @"examples.themidnightcoders.com";
 	//hostTextField.text = @"10.0.1.141";
-	//hostTextField.text = @"192.168.2.63";
+	hostTextField.text = @"80.74.155.7";
 	//hostTextField.text = @"23.20.183.103"; 
-	hostTextField.text = @"localhost";
+	//hostTextField.text = @"localhost";
 	//hostTextField.text = @"10.0.1.14";
 	//hostTextField.text = @"10.0.1.33";
 	hostTextField.delegate = self;
