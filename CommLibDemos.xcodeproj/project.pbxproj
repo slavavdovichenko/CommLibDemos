@@ -138,6 +138,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D34E099A1963096500FCC378 /* libCommLibMac.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libCommLibMac.a; sourceTree = "<group>"; };
 		F9046D0A155D42AA00658F91 /* PubSubChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PubSubChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9046D11155D42AA00658F91 /* PubSubChat-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PubSubChat-Info.plist"; sourceTree = "<group>"; };
 		F9046D13155D42AA00658F91 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -669,6 +670,7 @@
 		F9E0B6D0149FD21800262B0A /* CommLibiOS */ = {
 			isa = PBXGroup;
 			children = (
+				D34E099A1963096500FCC378 /* libCommLibMac.a */,
 				F9E0B6D1149FD21800262B0A /* CommLibiOS.a */,
 				F9E0B6D2149FD21800262B0A /* doc */,
 				F9E0B6D5149FD21800262B0A /* include */,
