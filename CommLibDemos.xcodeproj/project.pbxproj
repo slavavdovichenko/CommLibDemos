@@ -860,6 +860,11 @@
 			attributes = {
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "The Midnight Coders, Inc.";
+				TargetAttributes = {
+					F9E0B6AF149FD07D00262B0A = {
+						DevelopmentTeam = 73FSJC7BUF;
+					};
+				};
 			};
 			buildConfigurationList = F9E0B677149F607700262B0A /* Build configuration list for PBXProject "CommLibDemos" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -1583,6 +1588,7 @@
 		F9E0B6CB149FD07F00262B0A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HttpRemoting/HttpRemoting-Prefix.pch";
@@ -1593,6 +1599,7 @@
 					"\"$(SRCROOT)/CommLibiOS\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -1600,6 +1607,7 @@
 		F9E0B6CC149FD07F00262B0A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HttpRemoting/HttpRemoting-Prefix.pch";
@@ -1610,6 +1618,7 @@
 					"\"$(SRCROOT)/CommLibiOS\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
