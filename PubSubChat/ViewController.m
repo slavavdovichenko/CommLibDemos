@@ -325,7 +325,7 @@
 #pragma mark -
 #pragma mark UIAlertViewDelegate Methods 
 
--(void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(int)index {
+-(void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)index {
 	//[alertView release];	
 }
 

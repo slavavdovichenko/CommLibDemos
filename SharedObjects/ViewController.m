@@ -286,13 +286,7 @@
     hostTextField.keyboardType = UIKeyboardTypeNumbersAndPunctuation;
 	hostTextField.returnKeyType = UIReturnKeyDone;
 	hostTextField.clearButtonMode = UITextFieldViewModeWhileEditing;
-	//hostTextField.text = @"examples.themidnightcoders.com";
-	//hostTextField.text = @"10.0.1.141";
-	hostTextField.text = @"80.74.155.7";
-	//hostTextField.text = @"23.20.183.103"; 
-	//hostTextField.text = @"localhost";
-	//hostTextField.text = @"10.0.1.14";
-	//hostTextField.text = @"10.0.1.33";
+	hostTextField.text = @"192.168.1.105";
 	hostTextField.delegate = self;
 	[self.view addSubview:hostTextField];
 	//[hostTextField release];
@@ -439,7 +433,7 @@
 #pragma mark -
 #pragma mark UIAlertViewDelegate Methods 
 
--(void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(int)index {
+-(void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)index {
 	//[alertView release];	
 }
 

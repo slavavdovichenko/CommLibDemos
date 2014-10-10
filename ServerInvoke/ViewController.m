@@ -160,10 +160,7 @@
     hostTextField.keyboardType = UIKeyboardTypeNumbersAndPunctuation;
 	hostTextField.returnKeyType = UIReturnKeyDone;
 	hostTextField.clearButtonMode = UITextFieldViewModeWhileEditing;
-	hostTextField.text = @"examples.themidnightcoders.com";
-	//hostTextField.text = @"10.0.1.141";
-	//hostTextField.text = @"80.74.155.7";
-	//hostTextField.text = @"localhost";
+	hostTextField.text = @"192.168.1.105";
 	hostTextField.delegate = self;
 	[self.view addSubview:hostTextField];
 	//[hostTextField release];
@@ -270,7 +267,7 @@
 #pragma mark -
 #pragma mark UIAlertViewDelegate Methods 
 
--(void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(int)index {
+-(void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)index {
 	//[alertView release];	
 }
 
@@ -316,7 +313,7 @@
     NSArray *args = [call getArguments];
     int status = [call getStatus];    
     
-    NSLog(@" $$$$$$ <IRTMPClientDelegate>> resultReceived <---- status=%d, method='%@', arguments=%d\n", status, method, args.count);
+    NSLog(@" $$$$$$ <IRTMPClientDelegate>> resultReceived <---- status=%d, method='%@', arguments=%lu\n", status, method, (unsigned long)args.count);
     
     if (status != STATUS_SUCCESS_RESULT) // this call is not a server invoke
         return;

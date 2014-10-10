@@ -41,8 +41,7 @@
     
     [super viewDidLoad];
     
-    hostTextField.text = @"rtmp://80.74.155.7:1935/live";
-    //hostTextField.text = @"rtmp://192.168.1.63:1935/live";
+    hostTextField.text = @"rtmp://192.168.1.105:1935/live";
     hostTextField.delegate = self;
     
     nameTextField.text = @"SharedPhoto";
@@ -207,7 +206,7 @@
 // MEDIA
 
 -(void)imageSaved:(UIImage *)image didFinishSavingWithError:(NSError *)error contextInfo:(void *)contextInfo {
-    NSLog(@"-> imageSaved: error = %d <%@>", error.code, error.localizedDescription);
+    NSLog(@"-> imageSaved: error = %ld <%@>", (long)error.code, error.localizedDescription);
 }
 
 -(void)showPhoto:(UIImage *)image {
@@ -273,7 +272,7 @@
 #pragma mark -
 #pragma mark UIAlertViewDelegate Methods 
 
--(void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(int)index {
+-(void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)index {
 	[alertView release];	
 }
 
@@ -585,7 +584,7 @@ static const NSString *AVCaptureStillImageIsCapturingStillImageContext = @"AVCap
     [stillImageOutput captureStillImageAsynchronouslyFromConnection:stillImageConnection
                                                   completionHandler:^(CMSampleBufferRef imageDataSampleBuffer, NSError *error) {
                                                       if (error) {
-                                                          NSLog(@"-> takePicture: error = %d %@@>", error.code, error.localizedDescription);
+                                                          NSLog(@"-> takePicture: error = %ld %@@>", (long)error.code, error.localizedDescription);
                                                       }
                                                   }
  	 ];
