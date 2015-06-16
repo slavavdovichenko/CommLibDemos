@@ -138,7 +138,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D34E099A1963096500FCC378 /* libCommLibMac.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libCommLibMac.a; sourceTree = "<group>"; };
 		F9046D0A155D42AA00658F91 /* PubSubChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PubSubChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9046D11155D42AA00658F91 /* PubSubChat-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PubSubChat-Info.plist"; sourceTree = "<group>"; };
 		F9046D13155D42AA00658F91 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -221,6 +220,28 @@
 		F96A9C5D149FEF2B000F1FC7 /* weborb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = weborb.png; sourceTree = "<group>"; };
 		F96A9C5E149FEF2B000F1FC7 /* WhiteboardDemo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WhiteboardDemo.png; sourceTree = "<group>"; };
 		F97C89191705850200F0B611 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F98A7D931B3039DD007635B6 /* Communication Library for iOS User Guide.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Communication Library for iOS User Guide.pdf"; sourceTree = "<group>"; };
+		F98A7D941B3039DD007635B6 /* WeborbClient Class Reference.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "WeborbClient Class Reference.pdf"; sourceTree = "<group>"; };
+		F98A7D971B303A00007635B6 /* AMFSerializer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMFSerializer.h; sourceTree = "<group>"; };
+		F98A7D981B303A00007635B6 /* BinaryCodec.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BinaryCodec.h; sourceTree = "<group>"; };
+		F98A7D991B303A00007635B6 /* BinaryStream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BinaryStream.h; sourceTree = "<group>"; };
+		F98A7D9A1B303A00007635B6 /* DEBUG.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DEBUG.h; sourceTree = "<group>"; };
+		F98A7D9B1B303A00007635B6 /* FlashorbBinaryReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlashorbBinaryReader.h; sourceTree = "<group>"; };
+		F98A7D9C1B303A00007635B6 /* FlashorbBinaryWriter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlashorbBinaryWriter.h; sourceTree = "<group>"; };
+		F98A7D9D1B303A00007635B6 /* IAttributeStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IAttributeStore.h; sourceTree = "<group>"; };
+		F98A7D9E1B303A00007635B6 /* IClientSharedObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IClientSharedObject.h; sourceTree = "<group>"; };
+		F98A7D9F1B303A00007635B6 /* IClientSharedObjectDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IClientSharedObjectDelegate.h; sourceTree = "<group>"; };
+		F98A7DA01B303A00007635B6 /* IPendingServiceCallback.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IPendingServiceCallback.h; sourceTree = "<group>"; };
+		F98A7DA11B303A00007635B6 /* IPersistable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IPersistable.h; sourceTree = "<group>"; };
+		F98A7DA21B303A00007635B6 /* IRTMProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRTMProtocol.h; sourceTree = "<group>"; };
+		F98A7DA31B303A00007635B6 /* IServiceCall.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IServiceCall.h; sourceTree = "<group>"; };
+		F98A7DA41B303A00007635B6 /* ISharedObjectListener.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ISharedObjectListener.h; sourceTree = "<group>"; };
+		F98A7DA51B303A00007635B6 /* MemoryTicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MemoryTicker.h; sourceTree = "<group>"; };
+		F98A7DA61B303A00007635B6 /* Responder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Responder.h; sourceTree = "<group>"; };
+		F98A7DA71B303A00007635B6 /* RTMPClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTMPClient.h; sourceTree = "<group>"; };
+		F98A7DA81B303A00007635B6 /* Types.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Types.h; sourceTree = "<group>"; };
+		F98A7DA91B303A00007635B6 /* WeborbClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeborbClient.h; sourceTree = "<group>"; };
+		F98A7DAA1B303A00007635B6 /* libCommLib-osx.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libCommLib-osx.a"; sourceTree = "<group>"; };
 		F998ECD815C030AB000D49EA /* SharedPhoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SharedPhoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F998ECDF15C030AB000D49EA /* SharedPhoto-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SharedPhoto-Info.plist"; sourceTree = "<group>"; };
 		F998ECE115C030AB000D49EA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -255,8 +276,6 @@
 		F9E0B6C8149FD07F00262B0A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F9E0B6CD149FD17300262B0A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		F9E0B6D1149FD21800262B0A /* CommLibiOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = CommLibiOS.a; sourceTree = "<group>"; };
-		F9E0B6D3149FD21800262B0A /* Communication Library for iOS User Guide.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Communication Library for iOS User Guide.pdf"; sourceTree = "<group>"; };
-		F9E0B6D4149FD21800262B0A /* WeborbClient Class Reference.odt */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WeborbClient Class Reference.odt"; sourceTree = "<group>"; };
 		F9E0B6D6149FD21800262B0A /* BinaryCodec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BinaryCodec.h; sourceTree = "<group>"; };
 		F9E0B6D7149FD21800262B0A /* IAttributeStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAttributeStore.h; sourceTree = "<group>"; };
 		F9E0B6D8149FD21800262B0A /* IClientSharedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IClientSharedObject.h; sourceTree = "<group>"; };
@@ -568,6 +587,50 @@
 			path = icons;
 			sourceTree = "<group>";
 		};
+		F98A7D921B3039DD007635B6 /* doc */ = {
+			isa = PBXGroup;
+			children = (
+				F98A7D931B3039DD007635B6 /* Communication Library for iOS User Guide.pdf */,
+				F98A7D941B3039DD007635B6 /* WeborbClient Class Reference.pdf */,
+			);
+			path = doc;
+			sourceTree = "<group>";
+		};
+		F98A7D951B303A00007635B6 /* CommLibOSX */ = {
+			isa = PBXGroup;
+			children = (
+				F98A7D961B303A00007635B6 /* include */,
+				F98A7DAA1B303A00007635B6 /* libCommLib-osx.a */,
+			);
+			path = CommLibOSX;
+			sourceTree = "<group>";
+		};
+		F98A7D961B303A00007635B6 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				F98A7D971B303A00007635B6 /* AMFSerializer.h */,
+				F98A7D981B303A00007635B6 /* BinaryCodec.h */,
+				F98A7D991B303A00007635B6 /* BinaryStream.h */,
+				F98A7D9A1B303A00007635B6 /* DEBUG.h */,
+				F98A7D9B1B303A00007635B6 /* FlashorbBinaryReader.h */,
+				F98A7D9C1B303A00007635B6 /* FlashorbBinaryWriter.h */,
+				F98A7D9D1B303A00007635B6 /* IAttributeStore.h */,
+				F98A7D9E1B303A00007635B6 /* IClientSharedObject.h */,
+				F98A7D9F1B303A00007635B6 /* IClientSharedObjectDelegate.h */,
+				F98A7DA01B303A00007635B6 /* IPendingServiceCallback.h */,
+				F98A7DA11B303A00007635B6 /* IPersistable.h */,
+				F98A7DA21B303A00007635B6 /* IRTMProtocol.h */,
+				F98A7DA31B303A00007635B6 /* IServiceCall.h */,
+				F98A7DA41B303A00007635B6 /* ISharedObjectListener.h */,
+				F98A7DA51B303A00007635B6 /* MemoryTicker.h */,
+				F98A7DA61B303A00007635B6 /* Responder.h */,
+				F98A7DA71B303A00007635B6 /* RTMPClient.h */,
+				F98A7DA81B303A00007635B6 /* Types.h */,
+				F98A7DA91B303A00007635B6 /* WeborbClient.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
 		F998ECDD15C030AB000D49EA /* SharedPhoto */ = {
 			isa = PBXGroup;
 			children = (
@@ -596,8 +659,10 @@
 		F9E0B672149F607700262B0A = {
 			isa = PBXGroup;
 			children = (
+				F98A7D921B3039DD007635B6 /* doc */,
 				F96A9C52149FEF2B000F1FC7 /* art */,
 				F9E0B6D0149FD21800262B0A /* CommLibiOS */,
+				F98A7D951B303A00007635B6 /* CommLibOSX */,
 				F9E0B6B5149FD07D00262B0A /* HttpRemoting */,
 				F90E309E14A1012E00F183FC /* SharedObjects */,
 				F90E30C414A10F3800F183FC /* ServerInvoke */,
@@ -670,21 +735,10 @@
 		F9E0B6D0149FD21800262B0A /* CommLibiOS */ = {
 			isa = PBXGroup;
 			children = (
-				D34E099A1963096500FCC378 /* libCommLibMac.a */,
 				F9E0B6D1149FD21800262B0A /* CommLibiOS.a */,
-				F9E0B6D2149FD21800262B0A /* doc */,
 				F9E0B6D5149FD21800262B0A /* include */,
 			);
 			path = CommLibiOS;
-			sourceTree = "<group>";
-		};
-		F9E0B6D2149FD21800262B0A /* doc */ = {
-			isa = PBXGroup;
-			children = (
-				F9E0B6D3149FD21800262B0A /* Communication Library for iOS User Guide.pdf */,
-				F9E0B6D4149FD21800262B0A /* WeborbClient Class Reference.odt */,
-			);
-			path = doc;
 			sourceTree = "<group>";
 		};
 		F9E0B6D5149FD21800262B0A /* include */ = {
@@ -858,7 +912,7 @@
 		F9E0B674149F607700262B0A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0620;
 				ORGANIZATIONNAME = "The Midnight Coders, Inc.";
 				TargetAttributes = {
 					F9E0B6AF149FD07D00262B0A = {
@@ -1281,7 +1335,7 @@
 				GCC_PREFIX_HEADER = "PubSubChat/PubSubChat-Prefix.pch";
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				INFOPLIST_FILE = "PubSubChat/PubSubChat-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/CommLibiOS\"",
@@ -1299,7 +1353,7 @@
 				GCC_PREFIX_HEADER = "PubSubChat/PubSubChat-Prefix.pch";
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				INFOPLIST_FILE = "PubSubChat/PubSubChat-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/CommLibiOS\"",
@@ -1316,6 +1370,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SharedObjects/SharedObjects-Prefix.pch";
 				INFOPLIST_FILE = "SharedObjects/SharedObjects-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/CommLibiOS\"",
@@ -1332,6 +1387,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SharedObjects/SharedObjects-Prefix.pch";
 				INFOPLIST_FILE = "SharedObjects/SharedObjects-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/CommLibiOS\"",
@@ -1348,6 +1404,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ServerInvoke/ServerInvoke-Prefix.pch";
 				INFOPLIST_FILE = "ServerInvoke/ServerInvoke-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/CommLibiOS\"",
@@ -1364,6 +1421,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ServerInvoke/ServerInvoke-Prefix.pch";
 				INFOPLIST_FILE = "ServerInvoke/ServerInvoke-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/CommLibiOS\"",
@@ -1382,6 +1440,7 @@
 				GCC_PREFIX_HEADER = "ClientInvoke/ClientInvoke-Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "ClientInvoke/ClientInvoke-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/CommLibiOS\"",
@@ -1400,6 +1459,7 @@
 				GCC_PREFIX_HEADER = "ClientInvoke/ClientInvoke-Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "ClientInvoke/ClientInvoke-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/CommLibiOS\"",
@@ -1417,6 +1477,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SharedBall/SharedBall-Prefix.pch";
 				INFOPLIST_FILE = "SharedBall/SharedBall-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/CommLibiOS\"",
@@ -1435,6 +1496,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SharedBall/SharedBall-Prefix.pch";
 				INFOPLIST_FILE = "SharedBall/SharedBall-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/CommLibiOS\"",
@@ -1452,6 +1514,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SharedBoard/SharedBoard-Prefix.pch";
 				INFOPLIST_FILE = "SharedBoard/SharedBoard-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/CommLibiOS\"",
@@ -1468,6 +1531,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SharedBoard/SharedBoard-Prefix.pch";
 				INFOPLIST_FILE = "SharedBoard/SharedBoard-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/CommLibiOS\"",
@@ -1487,7 +1551,7 @@
 				GCC_PREFIX_HEADER = "SharedPhoto/SharedPhoto-Prefix.pch";
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				INFOPLIST_FILE = "SharedPhoto/SharedPhoto-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/CommLibiOS\"",
@@ -1508,7 +1572,7 @@
 				GCC_PREFIX_HEADER = "SharedPhoto/SharedPhoto-Prefix.pch";
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				INFOPLIST_FILE = "SharedPhoto/SharedPhoto-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/CommLibiOS\"",
@@ -1529,9 +1593,11 @@
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -1548,7 +1614,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1565,9 +1631,11 @@
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -1577,7 +1645,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1594,6 +1662,7 @@
 				GCC_PREFIX_HEADER = "HttpRemoting/HttpRemoting-Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "HttpRemoting/HttpRemoting-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/CommLibiOS\"",
@@ -1613,6 +1682,7 @@
 				GCC_PREFIX_HEADER = "HttpRemoting/HttpRemoting-Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "HttpRemoting/HttpRemoting-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/CommLibiOS\"",
