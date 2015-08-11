@@ -8,10 +8,8 @@
 
 #import <UIKit/UIKit.h>
 #import <AVFoundation/AVFoundation.h>
-#import "RTMPClient.h"
-#import "ISharedObjectListener.h"
 
-@interface ViewController : UIViewController <UIAlertViewDelegate, UITextFieldDelegate,  IRTMPClientDelegate, ISharedObjectListener> {
+@interface ViewController : UIViewController {
     
     IBOutlet UITextField        *hostTextField;
     IBOutlet UITextField        *nameTextField;
@@ -23,21 +21,6 @@
     IBOutlet UIBarButtonItem    *btnToggleCameras;
     IBOutlet UIBarButtonItem    *btnToggleViews;
     IBOutlet UIBarButtonItem    *btnPhoto;
-    
-    AVCaptureSession            *session;
-	AVCaptureVideoDataOutput    *videoDataOutput;
-	AVCaptureVideoPreviewLayer  *previewLayer;
-	dispatch_queue_t            videoDataOutputQueue;
-	AVCaptureStillImageOutput   *stillImageOutput;
-	UIView                      *flashView;
-	BOOL                        isUsingFrontFacingCamera;
-    BOOL                        isPhotoPicking;
-
-	RTMPClient                  *socket;
-    id <IClientSharedObject>    clientSO;
-	
-    int                         alerts;
-
 }
 
 -(IBAction)connectControl:(id)sender;

@@ -7,14 +7,11 @@
 //
 
 #import "ViewController.h"
-#import "BinaryCodec.h"
 #import "DEBUG.h"
+#import "BinaryCodec.h"
+#import "RTMPClient.h"
+#import "ISharedObjectListener.h"
 
-
-#define PRESET_LOW_BYTEPERROW 768
-#define PRESET_LOW_HEIGHT 144
-#define PRESET_LOW_WIDTH 192
-#define PRESET_LOW_SCALE 1.0f
 
 #define SO_ATTRIBUTE_DATA @"photoData"
 #define SO_ATTRIBUTE_ORIENTATION @"photoOrientation"
@@ -22,6 +19,25 @@
 
 #pragma mark -
 #pragma mark ViewController implementations
+
+@interface ViewController () <UIAlertViewDelegate, UITextFieldDelegate,  IRTMPClientDelegate, ISharedObjectListener> {
+    
+    RTMPClient                  *socket;
+    id <IClientSharedObject>    clientSO;
+    
+    int                         alerts;
+    
+    AVCaptureSession            *session;
+    AVCaptureVideoDataOutput    *videoDataOutput;
+    AVCaptureVideoPreviewLayer  *previewLayer;
+    dispatch_queue_t            videoDataOutputQueue;
+    AVCaptureStillImageOutput   *stillImageOutput;
+    UIView                      *flashView;
+    BOOL                        isUsingFrontFacingCamera;
+    BOOL                        isPhotoPicking;
+}
+
+@end
 
 @interface ViewController (MediaProcessing) <AVCaptureVideoDataOutputSampleBufferDelegate>
 -(void)setupAVCapture;
@@ -41,7 +57,7 @@
     
     [super viewDidLoad];
     
-    hostTextField.text = @"rtmp://192.168.1.105:1935/live";
+    hostTextField.text = @"rtmp://10.0.1.62:1935/live";
     hostTextField.delegate = self;
     
     nameTextField.text = @"SharedPhoto";
@@ -53,7 +69,7 @@
     
     session = nil;
     
-    [DebLog setIsActive:YES];
+    //[DebLog setIsActive:YES];
     
 }
 
@@ -390,6 +406,11 @@
 #pragma mark-
 #pragma mark statics  
 
+#define PRESET_LOW_BYTEPERROW 768
+#define PRESET_LOW_HEIGHT 144
+#define PRESET_LOW_WIDTH 192
+#define PRESET_LOW_SCALE 1.0f
+
 // used for KVO observation of the @"capturingStillImage" property to perform flash bulb animation
 static const NSString *AVCaptureStillImageIsCapturingStillImageContext = @"AVCaptureStillImageIsCapturingStillImageContext";
 
@@ -632,8 +653,10 @@ static const NSString *AVCaptureStillImageIsCapturingStillImageContext = @"AVCap
 
 -(void)captureOutput:(AVCaptureOutput *)captureOutput didOutputSampleBuffer:(CMSampleBufferRef)sampleBuffer fromConnection:(AVCaptureConnection *)connection {	
     
-    if (socket && (captureOutput == videoDataOutput)) 
+    if (socket && (captureOutput == videoDataOutput)) {
+        [DebLog logY:@">>>>>>>>>> captureOutput: <<<<<<<<<<<<<<<<"];
         [self publishPixelBuffer:CMSampleBufferGetImageBuffer(sampleBuffer)];
+    }
 }
 
 @end
