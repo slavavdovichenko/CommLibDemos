@@ -654,7 +654,7 @@ static const NSString *AVCaptureStillImageIsCapturingStillImageContext = @"AVCap
 -(void)captureOutput:(AVCaptureOutput *)captureOutput didOutputSampleBuffer:(CMSampleBufferRef)sampleBuffer fromConnection:(AVCaptureConnection *)connection {	
     
     if (socket && (captureOutput == videoDataOutput)) {
-        [DebLog logY:@">>>>>>>>>> captureOutput: <<<<<<<<<<<<<<<<"];
+        [DebLog logN:@">>>>>>>>>> captureOutput: <<<<<<<<<<<<<<<<"];
         [self publishPixelBuffer:CMSampleBufferGetImageBuffer(sampleBuffer)];
     }
 }

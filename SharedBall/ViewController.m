@@ -266,8 +266,8 @@
 	hostTextField.clearButtonMode = UITextFieldViewModeWhileEditing;
 	//hostTextField.text = @"localhost";
 	//hostTextField.text = @"10.0.1.141";
-	hostTextField.text = @"192.168.1.105";
-	hostTextField.delegate = self;
+	hostTextField.text = @"10.0.1.62";
+ 	hostTextField.delegate = self;
 	[self.view addSubview:hostTextField];
 	//[hostTextField release];
 	

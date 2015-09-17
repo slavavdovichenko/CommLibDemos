@@ -263,35 +263,35 @@
 	[self.view addSubview:btnProtocol];
     
 	//labels
-	protocolLabel = [[UILabel alloc] initWithFrame:CGRectMake(62.0, 10.0, 23.0, 30.0)];
+	protocolLabel = [[UILabel alloc] initWithFrame:CGRectMake(62.0, 40.0, 23.0, 30.0)];
 	protocolLabel.text = @"://";
 	[self.view addSubview:protocolLabel];
 	//[protocolLabel release];
     
-	portLabel = [[UILabel alloc] initWithFrame:CGRectMake(7.0, 50.0, 5.0, 30.0)];
+	portLabel = [[UILabel alloc] initWithFrame:CGRectMake(7.0, 80.0, 5.0, 30.0)];
 	portLabel.text = @":";
 	[self.view addSubview:portLabel];
 	//[portLabel release];
 	
-	appLabel = [[UILabel alloc] initWithFrame:CGRectMake(7.0, 90.0, 10.0, 30.0)];
+	appLabel = [[UILabel alloc] initWithFrame:CGRectMake(7.0, 120.0, 10.0, 30.0)];
 	appLabel.text = @"/";
 	[self.view addSubview:appLabel];
 	//[appLabel release];
 	
 	// textFields
-	hostTextField = [[UITextField alloc] initWithFrame:CGRectMake(80.0, 10.0, 235.0, 30.0)];
+	hostTextField = [[UITextField alloc] initWithFrame:CGRectMake(80.0, 40.0, 235.0, 30.0)];
 	hostTextField.borderStyle = UITextBorderStyleRoundedRect;
 	hostTextField.autocorrectionType = UITextAutocorrectionTypeNo;
 	hostTextField.placeholder = @"hostname or IP";
     hostTextField.keyboardType = UIKeyboardTypeNumbersAndPunctuation;
 	hostTextField.returnKeyType = UIReturnKeyDone;
 	hostTextField.clearButtonMode = UITextFieldViewModeWhileEditing;
-	hostTextField.text = @"192.168.1.105";
+	hostTextField.text = @"10.0.1.62";
 	hostTextField.delegate = self;
 	[self.view addSubview:hostTextField];
 	//[hostTextField release];
 	
-	portTextField = [[UITextField alloc] initWithFrame:CGRectMake(15.0, 50.0, 80.0, 30.0)];
+	portTextField = [[UITextField alloc] initWithFrame:CGRectMake(15.0, 80.0, 80.0, 30.0)];
 	portTextField.borderStyle = UITextBorderStyleRoundedRect;
 	portTextField.autocorrectionType = UITextAutocorrectionTypeNo;
 	portTextField.placeholder = @"port";
@@ -304,7 +304,7 @@
 	[self.view addSubview:portTextField];
 	//[portTextField release];
 	
-	appTextField = [[UITextField alloc] initWithFrame:CGRectMake(15.0, 90.0, 300.0, 30.0)];
+	appTextField = [[UITextField alloc] initWithFrame:CGRectMake(15.0, 120.0, 300.0, 30.0)];
 	appTextField.borderStyle = UITextBorderStyleRoundedRect;
 	appTextField.autocorrectionType = UITextAutocorrectionTypeNo;
 	appTextField.placeholder = @"app";
@@ -321,7 +321,7 @@
 	//buttons
 	btnEchoInt = [UIButton buttonWithType:UIButtonTypeRoundedRect];
 	btnEchoInt.frame = CGRectMake(0.0, 0.0, 300.0, 30.0);
-	btnEchoInt.center = CGPointMake(160.0, 30.0);
+	btnEchoInt.center = CGPointMake(160.0, 60.0);
 	btnEchoInt.titleLabel.font = [UIFont boldSystemFontOfSize:12.0f];
     [btnEchoInt setTitle:@"connectSO ('SharedBall')" forState:UIControlStateNormal];
 	[btnEchoInt addTarget:self action:@selector(connectSO) forControlEvents:UIControlEventTouchUpInside];
@@ -330,7 +330,7 @@
     
 	btnEchoFloat = [UIButton buttonWithType:UIButtonTypeRoundedRect];
 	btnEchoFloat.frame = CGRectMake(0.0, 0.0, 300.0, 30.0);
-	btnEchoFloat.center = CGPointMake(160.0, 75.0);
+	btnEchoFloat.center = CGPointMake(160.0, 105.0);
 	btnEchoFloat.titleLabel.font = [UIFont boldSystemFontOfSize:12.0f];
     [btnEchoFloat setTitle:@"getAttributeSO" forState:UIControlStateNormal];
 	[btnEchoFloat addTarget:self action:@selector(getAttributeSO) forControlEvents:UIControlEventTouchUpInside];
@@ -339,7 +339,7 @@
 	
 	btnEchoString = [UIButton buttonWithType:UIButtonTypeRoundedRect];
 	btnEchoString.frame = CGRectMake(0.0, 0.0, 300.0, 30.0);
-	btnEchoString.center = CGPointMake(160.0, 120.0);
+	btnEchoString.center = CGPointMake(160.0, 150.0);
 	btnEchoString.titleLabel.font = [UIFont boldSystemFontOfSize:12.0f];
 	[btnEchoString setTitle:@"removeAttributeSO" forState:UIControlStateNormal];
 	[btnEchoString addTarget:self action:@selector(removeAttributeSO) forControlEvents:UIControlEventTouchUpInside];
@@ -348,7 +348,7 @@
 	
 	btnEchoStringArray = [UIButton buttonWithType:UIButtonTypeRoundedRect];
 	btnEchoStringArray.frame = CGRectMake(0.0, 0.0, 300.0, 30.0);
-	btnEchoStringArray.center = CGPointMake(160.0, 165.0);
+	btnEchoStringArray.center = CGPointMake(160.0, 195.0);
 	btnEchoStringArray.titleLabel.font = [UIFont boldSystemFontOfSize:12.0f];
 	[btnEchoStringArray setTitle:@"sendMessageSO" forState:UIControlStateNormal];
 	[btnEchoStringArray addTarget:self action:@selector(sendMessageSO) forControlEvents:UIControlEventTouchUpInside];
@@ -357,7 +357,7 @@
 	
 	btnEchoByteArray = [UIButton buttonWithType:UIButtonTypeRoundedRect];
 	btnEchoByteArray.frame = CGRectMake(0.0, 0.0, 300.0, 30.0);
-	btnEchoByteArray.center = CGPointMake(160.0, 210.0);
+	btnEchoByteArray.center = CGPointMake(160.0, 240.0);
 	btnEchoByteArray.titleLabel.font = [UIFont boldSystemFontOfSize:12.0f];
     [btnEchoByteArray setTitle:@"getByteArray ([(0, 1, 2, 0xFF), size = 100000])" forState:UIControlStateNormal];
     [btnEchoByteArray addTarget:self action:@selector(getAttributeSOByteArray) forControlEvents:UIControlEventTouchUpInside];
