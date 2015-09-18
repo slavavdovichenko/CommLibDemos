@@ -3,25 +3,19 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 47;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		F9046D0C155D42AA00658F91 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E0B681149F607800262B0A /* UIKit.framework */; };
-		F9046D0D155D42AA00658F91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E0B683149F607800262B0A /* Foundation.framework */; };
-		F9046D0E155D42AA00658F91 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E0B685149F607800262B0A /* CoreGraphics.framework */; };
 		F9046D14155D42AA00658F91 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F9046D12155D42AA00658F91 /* InfoPlist.strings */; };
 		F9046D16155D42AA00658F91 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F9046D15155D42AA00658F91 /* main.m */; };
 		F9046D1A155D42AA00658F91 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F9046D19155D42AA00658F91 /* AppDelegate.m */; };
 		F9046D1D155D42AA00658F91 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9046D1B155D42AA00658F91 /* MainStoryboard_iPhone.storyboard */; };
 		F9046D20155D42AA00658F91 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9046D1E155D42AA00658F91 /* MainStoryboard_iPad.storyboard */; };
 		F9046D23155D42AA00658F91 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9046D22155D42AA00658F91 /* ViewController.m */; };
-		F9046D27155D430400658F91 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E0B6CD149FD17300262B0A /* Security.framework */; };
-		F9046D28155D430700658F91 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F959131214DC132900A3EB94 /* CFNetwork.framework */; };
 		F9046D29155D431A00658F91 /* CommLibiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E0B6D1149FD21800262B0A /* CommLibiOS.a */; };
 		F90E309B14A1012E00F183FC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E0B681149F607800262B0A /* UIKit.framework */; };
-		F90E309C14A1012E00F183FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E0B683149F607800262B0A /* Foundation.framework */; };
-		F90E309D14A1012E00F183FC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E0B685149F607800262B0A /* CoreGraphics.framework */; };
 		F90E30A314A1012E00F183FC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F90E30A114A1012E00F183FC /* InfoPlist.strings */; };
 		F90E30A514A1012E00F183FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F90E30A414A1012E00F183FC /* main.m */; };
 		F90E30A914A1012E00F183FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F90E30A814A1012E00F183FC /* AppDelegate.m */; };
@@ -29,12 +23,9 @@
 		F90E30AF14A1012F00F183FC /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F90E30AD14A1012F00F183FC /* MainStoryboard_iPad.storyboard */; };
 		F90E30B214A1012F00F183FC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F90E30B114A1012F00F183FC /* ViewController.m */; };
 		F90E30B714A1026A00F183FC /* RSO-API-SM.png in Resources */ = {isa = PBXBuildFile; fileRef = F96A9C55149FEF2B000F1FC7 /* RSO-API-SM.png */; };
-		F90E30B814A1027F00F183FC /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E0B6CD149FD17300262B0A /* Security.framework */; };
 		F90E30B914A1028600F183FC /* CommLibiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E0B6D1149FD21800262B0A /* CommLibiOS.a */; };
 		F90E30BA14A10B0600F183FC /* RSO-API.png in Resources */ = {isa = PBXBuildFile; fileRef = F96A9C5A149FEF2B000F1FC7 /* RSO-API.png */; };
 		F90E30C114A10F3800F183FC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E0B681149F607800262B0A /* UIKit.framework */; };
-		F90E30C214A10F3800F183FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E0B683149F607800262B0A /* Foundation.framework */; };
-		F90E30C314A10F3800F183FC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E0B685149F607800262B0A /* CoreGraphics.framework */; };
 		F90E30C914A10F3900F183FC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F90E30C714A10F3900F183FC /* InfoPlist.strings */; };
 		F90E30CB14A10F3900F183FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F90E30CA14A10F3900F183FC /* main.m */; };
 		F90E30CF14A10F3900F183FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F90E30CE14A10F3900F183FC /* AppDelegate.m */; };
@@ -43,11 +34,8 @@
 		F90E30D814A10F3900F183FC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F90E30D714A10F3900F183FC /* ViewController.m */; };
 		F90E30DC14A10FA700F183FC /* ServerCallback-SM.png in Resources */ = {isa = PBXBuildFile; fileRef = F96A9C57149FEF2B000F1FC7 /* ServerCallback-SM.png */; };
 		F90E30DD14A10FAA00F183FC /* ServerCallback.png in Resources */ = {isa = PBXBuildFile; fileRef = F96A9C5C149FEF2B000F1FC7 /* ServerCallback.png */; };
-		F90E30DE14A10FB400F183FC /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E0B6CD149FD17300262B0A /* Security.framework */; };
 		F90E30DF14A10FBE00F183FC /* CommLibiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E0B6D1149FD21800262B0A /* CommLibiOS.a */; };
 		F90E30E614A1150800F183FC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E0B681149F607800262B0A /* UIKit.framework */; };
-		F90E30E714A1150800F183FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E0B683149F607800262B0A /* Foundation.framework */; };
-		F90E30E814A1150800F183FC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E0B685149F607800262B0A /* CoreGraphics.framework */; };
 		F90E30EE14A1150800F183FC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F90E30EC14A1150800F183FC /* InfoPlist.strings */; };
 		F90E30F014A1150800F183FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F90E30EF14A1150800F183FC /* main.m */; };
 		F90E30F414A1150800F183FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F90E30F314A1150800F183FC /* AppDelegate.m */; };
@@ -55,8 +43,6 @@
 		F90E30FA14A1150800F183FC /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F90E30F814A1150800F183FC /* MainStoryboard_iPad.storyboard */; };
 		F90E30FD14A1150800F183FC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F90E30FC14A1150800F183FC /* ViewController.m */; };
 		F90E310714A1153800F183FC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E0B681149F607800262B0A /* UIKit.framework */; };
-		F90E310814A1153800F183FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E0B683149F607800262B0A /* Foundation.framework */; };
-		F90E310914A1153800F183FC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E0B685149F607800262B0A /* CoreGraphics.framework */; };
 		F90E310F14A1153800F183FC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F90E310D14A1153800F183FC /* InfoPlist.strings */; };
 		F90E311114A1153800F183FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F90E311014A1153800F183FC /* main.m */; };
 		F90E311514A1153800F183FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F90E311414A1153800F183FC /* AppDelegate.m */; };
@@ -64,8 +50,6 @@
 		F90E311B14A1153900F183FC /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F90E311914A1153900F183FC /* MainStoryboard_iPad.storyboard */; };
 		F90E311E14A1153900F183FC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F90E311D14A1153900F183FC /* ViewController.m */; };
 		F90E312814A1155E00F183FC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E0B681149F607800262B0A /* UIKit.framework */; };
-		F90E312914A1155E00F183FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E0B683149F607800262B0A /* Foundation.framework */; };
-		F90E312A14A1155E00F183FC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E0B685149F607800262B0A /* CoreGraphics.framework */; };
 		F90E313014A1155F00F183FC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F90E312E14A1155F00F183FC /* InfoPlist.strings */; };
 		F90E313214A1155F00F183FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F90E313114A1155F00F183FC /* main.m */; };
 		F90E313614A1155F00F183FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F90E313514A1155F00F183FC /* AppDelegate.m */; };
@@ -74,25 +58,16 @@
 		F90E313F14A1155F00F183FC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F90E313E14A1155F00F183FC /* ViewController.m */; };
 		F90E314314A11F2700F183FC /* RMI-SM.png in Resources */ = {isa = PBXBuildFile; fileRef = F92809D114A054A6003956F7 /* RMI-SM.png */; };
 		F90E314414A11F2D00F183FC /* RMI.png in Resources */ = {isa = PBXBuildFile; fileRef = F96A9C59149FEF2B000F1FC7 /* RMI.png */; };
-		F90E314514A11F4C00F183FC /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E0B6CD149FD17300262B0A /* Security.framework */; };
 		F90E314614A11F5500F183FC /* CommLibiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E0B6D1149FD21800262B0A /* CommLibiOS.a */; };
 		F90E314714A11F6A00F183FC /* RSO-SM.png in Resources */ = {isa = PBXBuildFile; fileRef = F96A9C56149FEF2B000F1FC7 /* RSO-SM.png */; };
 		F90E314814A11F7200F183FC /* RSO.png in Resources */ = {isa = PBXBuildFile; fileRef = F96A9C5B149FEF2B000F1FC7 /* RSO.png */; };
-		F90E314914A11F7F00F183FC /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E0B6CD149FD17300262B0A /* Security.framework */; };
 		F90E314A14A11F8300F183FC /* CommLibiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E0B6D1149FD21800262B0A /* CommLibiOS.a */; };
 		F90E314B14A11F9000F183FC /* Whiteboard-SM.png in Resources */ = {isa = PBXBuildFile; fileRef = F96A9C58149FEF2B000F1FC7 /* Whiteboard-SM.png */; };
 		F90E314C14A11F9400F183FC /* WhiteboardDemo.png in Resources */ = {isa = PBXBuildFile; fileRef = F96A9C5E149FEF2B000F1FC7 /* WhiteboardDemo.png */; };
-		F90E314D14A11F9E00F183FC /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E0B6CD149FD17300262B0A /* Security.framework */; };
 		F90E314E14A11FA300F183FC /* CommLibiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E0B6D1149FD21800262B0A /* CommLibiOS.a */; };
 		F90E314F14A12EF100F183FC /* weborb.png in Resources */ = {isa = PBXBuildFile; fileRef = F96A9C5D149FEF2B000F1FC7 /* weborb.png */; };
 		F92809D214A054A6003956F7 /* RMI-SM.png in Resources */ = {isa = PBXBuildFile; fileRef = F92809D114A054A6003956F7 /* RMI-SM.png */; };
-		F959131514DC133900A3EB94 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F959131214DC132900A3EB94 /* CFNetwork.framework */; };
-		F959131614DC134300A3EB94 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F959131214DC132900A3EB94 /* CFNetwork.framework */; };
-		F959131714DC134600A3EB94 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F959131214DC132900A3EB94 /* CFNetwork.framework */; };
-		F959131814DC134C00A3EB94 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F959131214DC132900A3EB94 /* CFNetwork.framework */; };
-		F959131914DC135100A3EB94 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F959131214DC132900A3EB94 /* CFNetwork.framework */; };
 		F96A9C6C149FF13D000F1FC7 /* weborb.png in Resources */ = {isa = PBXBuildFile; fileRef = F96A9C5D149FEF2B000F1FC7 /* weborb.png */; };
-		F97C891B1705852700F0B611 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F97C89191705850200F0B611 /* CoreData.framework */; };
 		F97C891C1705852D00F0B611 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F97C89191705850200F0B611 /* CoreData.framework */; };
 		F97C891D1705853300F0B611 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F97C89191705850200F0B611 /* CoreData.framework */; };
 		F97C891E1705853A00F0B611 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F97C89191705850200F0B611 /* CoreData.framework */; };
@@ -113,19 +88,17 @@
 		F998ECF715C030FE000D49EA /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F959131214DC132900A3EB94 /* CFNetwork.framework */; };
 		F998ECF815C03103000D49EA /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9CAAD2C15B5A643002C77A9 /* CoreVideo.framework */; };
 		F998ECF915C03107000D49EA /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9CAAD2B15B5A643002C77A9 /* CoreMedia.framework */; };
-		F998ECFA15C0310C000D49EA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9CAAD2A15B5A643002C77A9 /* AVFoundation.framework */; };
+		F998ECFA15C0310C000D49EA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9CAAD2A15B5A643002C77A9 /* AVFoundation.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		F998ECFB15C03113000D49EA /* CommLibiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E0B6D1149FD21800262B0A /* CommLibiOS.a */; };
-		F9A7CF5A14F0439E009E6563 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F959131214DC132900A3EB94 /* CFNetwork.framework */; };
-		F9E0B6B2149FD07D00262B0A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E0B681149F607800262B0A /* UIKit.framework */; };
-		F9E0B6B3149FD07D00262B0A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E0B683149F607800262B0A /* Foundation.framework */; };
-		F9E0B6B4149FD07D00262B0A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E0B685149F607800262B0A /* CoreGraphics.framework */; };
+		F9C3F22B1BAC4CC800421D56 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E0B681149F607800262B0A /* UIKit.framework */; };
+		F9C3F22C1BAC4D5900421D56 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F97C89191705850200F0B611 /* CoreData.framework */; };
+		F9C3F22D1BAC4E6000421D56 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E0B685149F607800262B0A /* CoreGraphics.framework */; };
 		F9E0B6BA149FD07E00262B0A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F9E0B6B8149FD07E00262B0A /* InfoPlist.strings */; };
 		F9E0B6BC149FD07E00262B0A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E0B6BB149FD07E00262B0A /* main.m */; };
 		F9E0B6C0149FD07E00262B0A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E0B6BF149FD07E00262B0A /* AppDelegate.m */; };
 		F9E0B6C3149FD07E00262B0A /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9E0B6C1149FD07E00262B0A /* MainStoryboard_iPhone.storyboard */; };
 		F9E0B6C6149FD07F00262B0A /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9E0B6C4149FD07F00262B0A /* MainStoryboard_iPad.storyboard */; };
 		F9E0B6C9149FD07F00262B0A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E0B6C8149FD07F00262B0A /* ViewController.m */; };
-		F9E0B6CF149FD18E00262B0A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E0B6CD149FD17300262B0A /* Security.framework */; };
 		F9E0B6E5149FD24700262B0A /* CommLibiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E0B6D1149FD21800262B0A /* CommLibiOS.a */; };
 		F9FF0EB7160E618F00AEB3B7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9FF0EB6160E618F00AEB3B7 /* Default-568h@2x.png */; };
 		F9FF0EB8160E618F00AEB3B7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9FF0EB6160E618F00AEB3B7 /* Default-568h@2x.png */; };
@@ -297,11 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9046D0C155D42AA00658F91 /* UIKit.framework in Frameworks */,
-				F9046D0D155D42AA00658F91 /* Foundation.framework in Frameworks */,
 				F97C89211705854D00F0B611 /* CoreData.framework in Frameworks */,
-				F9046D0E155D42AA00658F91 /* CoreGraphics.framework in Frameworks */,
-				F9046D27155D430400658F91 /* Security.framework in Frameworks */,
-				F9046D28155D430700658F91 /* CFNetwork.framework in Frameworks */,
 				F9046D29155D431A00658F91 /* CommLibiOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -311,11 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F90E309B14A1012E00F183FC /* UIKit.framework in Frameworks */,
-				F90E309C14A1012E00F183FC /* Foundation.framework in Frameworks */,
 				F97C891C1705852D00F0B611 /* CoreData.framework in Frameworks */,
-				F90E309D14A1012E00F183FC /* CoreGraphics.framework in Frameworks */,
-				F90E30B814A1027F00F183FC /* Security.framework in Frameworks */,
-				F959131514DC133900A3EB94 /* CFNetwork.framework in Frameworks */,
 				F90E30B914A1028600F183FC /* CommLibiOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -325,11 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F90E30C114A10F3800F183FC /* UIKit.framework in Frameworks */,
-				F90E30C214A10F3800F183FC /* Foundation.framework in Frameworks */,
 				F97C891D1705853300F0B611 /* CoreData.framework in Frameworks */,
-				F90E30C314A10F3800F183FC /* CoreGraphics.framework in Frameworks */,
-				F90E30DE14A10FB400F183FC /* Security.framework in Frameworks */,
-				F959131614DC134300A3EB94 /* CFNetwork.framework in Frameworks */,
 				F90E30DF14A10FBE00F183FC /* CommLibiOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,11 +300,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F90E30E614A1150800F183FC /* UIKit.framework in Frameworks */,
-				F90E30E714A1150800F183FC /* Foundation.framework in Frameworks */,
 				F97C891E1705853A00F0B611 /* CoreData.framework in Frameworks */,
-				F90E30E814A1150800F183FC /* CoreGraphics.framework in Frameworks */,
-				F90E314514A11F4C00F183FC /* Security.framework in Frameworks */,
-				F959131714DC134600A3EB94 /* CFNetwork.framework in Frameworks */,
 				F90E314614A11F5500F183FC /* CommLibiOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -353,11 +310,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F90E310714A1153800F183FC /* UIKit.framework in Frameworks */,
-				F90E310814A1153800F183FC /* Foundation.framework in Frameworks */,
 				F97C891F1705854100F0B611 /* CoreData.framework in Frameworks */,
-				F90E310914A1153800F183FC /* CoreGraphics.framework in Frameworks */,
-				F90E314914A11F7F00F183FC /* Security.framework in Frameworks */,
-				F959131814DC134C00A3EB94 /* CFNetwork.framework in Frameworks */,
 				F90E314A14A11F8300F183FC /* CommLibiOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -367,11 +320,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F90E312814A1155E00F183FC /* UIKit.framework in Frameworks */,
-				F90E312914A1155E00F183FC /* Foundation.framework in Frameworks */,
 				F97C89201705854700F0B611 /* CoreData.framework in Frameworks */,
-				F90E312A14A1155E00F183FC /* CoreGraphics.framework in Frameworks */,
-				F90E314D14A11F9E00F183FC /* Security.framework in Frameworks */,
-				F959131914DC135100A3EB94 /* CFNetwork.framework in Frameworks */,
+				F9C3F22D1BAC4E6000421D56 /* CoreGraphics.framework in Frameworks */,
 				F90E314E14A11FA300F183FC /* CommLibiOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -397,12 +347,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9E0B6B2149FD07D00262B0A /* UIKit.framework in Frameworks */,
-				F9E0B6B3149FD07D00262B0A /* Foundation.framework in Frameworks */,
-				F97C891B1705852700F0B611 /* CoreData.framework in Frameworks */,
-				F9E0B6B4149FD07D00262B0A /* CoreGraphics.framework in Frameworks */,
-				F9E0B6CF149FD18E00262B0A /* Security.framework in Frameworks */,
-				F9A7CF5A14F0439E009E6563 /* CFNetwork.framework in Frameworks */,
+				F9C3F22B1BAC4CC800421D56 /* UIKit.framework in Frameworks */,
+				F9C3F22C1BAC4D5900421D56 /* CoreData.framework in Frameworks */,
 				F9E0B6E5149FD24700262B0A /* CommLibiOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -915,13 +861,34 @@
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "The Midnight Coders, Inc.";
 				TargetAttributes = {
+					F9046D09155D42AA00658F91 = {
+						DevelopmentTeam = 73FSJC7BUF;
+					};
+					F90E309814A1012E00F183FC = {
+						DevelopmentTeam = 73FSJC7BUF;
+					};
+					F90E30BE14A10F3800F183FC = {
+						DevelopmentTeam = 73FSJC7BUF;
+					};
+					F90E30E314A1150800F183FC = {
+						DevelopmentTeam = 73FSJC7BUF;
+					};
+					F90E310414A1153800F183FC = {
+						DevelopmentTeam = 73FSJC7BUF;
+					};
+					F90E312514A1155E00F183FC = {
+						DevelopmentTeam = 73FSJC7BUF;
+					};
+					F998ECD715C030AB000D49EA = {
+						DevelopmentTeam = 73FSJC7BUF;
+					};
 					F9E0B6AF149FD07D00262B0A = {
 						DevelopmentTeam = 73FSJC7BUF;
 					};
 				};
 			};
 			buildConfigurationList = F9E0B677149F607700262B0A /* Build configuration list for PBXProject "CommLibDemos" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 6.3";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -1330,6 +1297,7 @@
 		F9046D25155D42AA00658F91 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PubSubChat/PubSubChat-Prefix.pch";
@@ -1349,6 +1317,7 @@
 		F9046D26155D42AA00658F91 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PubSubChat/PubSubChat-Prefix.pch";
@@ -1368,6 +1337,7 @@
 		F90E30B314A1012F00F183FC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SharedObjects/SharedObjects-Prefix.pch";
@@ -1386,6 +1356,7 @@
 		F90E30B414A1012F00F183FC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SharedObjects/SharedObjects-Prefix.pch";
@@ -1404,6 +1375,7 @@
 		F90E30DA14A10F3900F183FC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ServerInvoke/ServerInvoke-Prefix.pch";
@@ -1422,6 +1394,7 @@
 		F90E30DB14A10F3900F183FC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ServerInvoke/ServerInvoke-Prefix.pch";
@@ -1441,6 +1414,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ClientInvoke/ClientInvoke-Prefix.pch";
@@ -1461,6 +1435,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ClientInvoke/ClientInvoke-Prefix.pch";
@@ -1520,6 +1495,7 @@
 		F90E314114A1155F00F183FC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SharedBoard/SharedBoard-Prefix.pch";
@@ -1538,6 +1514,7 @@
 		F90E314214A1155F00F183FC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SharedBoard/SharedBoard-Prefix.pch";
