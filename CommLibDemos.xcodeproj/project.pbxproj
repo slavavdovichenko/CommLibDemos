@@ -229,6 +229,7 @@
 		F9CAAD2A15B5A643002C77A9 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		F9CAAD2B15B5A643002C77A9 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		F9CAAD2C15B5A643002C77A9 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		F9D5C1721BB52F8A00CA85F6 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F9DB04FA17C6744600420AA8 /* AMFSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMFSerializer.h; sourceTree = "<group>"; };
 		F9DB04FB17C6744600420AA8 /* BinaryStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BinaryStream.h; sourceTree = "<group>"; };
 		F9DB04FC17C6744600420AA8 /* FlashorbBinaryReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlashorbBinaryReader.h; sourceTree = "<group>"; };
@@ -605,6 +606,7 @@
 		F9E0B672149F607700262B0A = {
 			isa = PBXGroup;
 			children = (
+				F9D5C1721BB52F8A00CA85F6 /* README.md */,
 				F98A7D921B3039DD007635B6 /* doc */,
 				F96A9C52149FEF2B000F1FC7 /* art */,
 				F9E0B6D0149FD21800262B0A /* CommLibiOS */,
