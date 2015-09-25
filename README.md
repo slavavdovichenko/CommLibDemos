@@ -1,7 +1,7 @@
 CommLibDemos
 ===============
 
-Communication Library for iOS provides the classes and protocols for communication via rtmp/prmps.
+Communication Library for iOS provides the classes and protocols for communication via rtmp/rtmps.
 It allows the iOS devices to interact with the media servers: Adobe FMS, Wowza MS, Red5, crtmp, rtmpd.
 WeborbClient is used for communication via http/https. See Communication Library for iOS User Guide.
 
