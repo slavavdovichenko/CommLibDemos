@@ -265,7 +265,6 @@
 	hostTextField.returnKeyType = UIReturnKeyDone;
 	hostTextField.clearButtonMode = UITextFieldViewModeWhileEditing;
 	//hostTextField.text = @"localhost";
-	//hostTextField.text = @"10.0.1.141";
 	hostTextField.text = @"10.0.1.62";
  	hostTextField.delegate = self;
 	[self.view addSubview:hostTextField];
@@ -287,12 +286,13 @@
 	appTextField = [[UITextField alloc] initWithFrame:CGRectMake(15.0, 90.0, 300.0, 30.0)];
 	appTextField.borderStyle = UITextBorderStyleRoundedRect;
 	appTextField.autocorrectionType = UITextAutocorrectionTypeNo;
-	appTextField.placeholder = @"app";
+    appTextField.placeholder = @"app";
 	appTextField.returnKeyType = UIReturnKeyDone;
 	appTextField.clearButtonMode = UITextFieldViewModeWhileEditing;
 	//appTextField.text = @"SharedObjectsApp";
 	//appTextField.text = @"SharedBall";
-	appTextField.text = @"live";
+    appTextField.text = @"live";
+	//appTextField.text = @"wcc";
 	appTextField.delegate = self;
 	[self.view addSubview:appTextField];
 	//[appTextField release];

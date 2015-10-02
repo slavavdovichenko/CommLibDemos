@@ -69,7 +69,7 @@
     
     session = nil;
     
-    //[DebLog setIsActive:YES];
+    [DebLog setIsActive:YES];
     
 }
 
@@ -370,10 +370,10 @@
         [DebLog log:@"ISharedObjectListener -> onSharedObjectUpdate('%@') withDictionary: key = %@", [so getName], key];
         
         id value = [values objectForKey:key];
-        if ([key isEqualToString:SO_ATTRIBUTE_DATA]) 
+        if ([key isEqualToString:SO_ATTRIBUTE_DATA] && [value isKindOfClass:NSArray.class])
             frame = [Base64 decodeFromStringArray:(NSArray *)value];
         else      
-            if ([key isEqualToString:SO_ATTRIBUTE_ORIENTATION]) 
+            if ([key isEqualToString:SO_ATTRIBUTE_ORIENTATION] && [value isKindOfClass:NSNumber.class])
                 orientation = [(NSNumber *)value intValue];
     }
     
