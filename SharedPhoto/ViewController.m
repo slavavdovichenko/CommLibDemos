@@ -214,7 +214,7 @@
     [self teardownAVCapture];
     
     [self socketDisconnected];
-    [socket disconnect];
+    [socket disconnect:self];
     [socket release];
     socket = nil;
 }

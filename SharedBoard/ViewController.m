@@ -208,7 +208,7 @@ enum touch_state
         return;
     
     [self socketDisconnected];
-    [socket disconnect];
+    [socket disconnect:self];
     socket = nil;
 }
 

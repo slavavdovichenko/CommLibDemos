@@ -181,7 +181,7 @@
         return;
     
     [self socketDisconnected];
-    [socket disconnect];
+    [socket disconnect:self];
     socket = nil;
 }
 
@@ -265,7 +265,8 @@
 	hostTextField.returnKeyType = UIReturnKeyDone;
 	hostTextField.clearButtonMode = UITextFieldViewModeWhileEditing;
 	//hostTextField.text = @"localhost";
-	hostTextField.text = @"10.0.1.62";
+    hostTextField.text = @"10.0.1.62";
+	//hostTextField.text = @"demo.eudata.biz";
  	hostTextField.delegate = self;
 	[self.view addSubview:hostTextField];
 	//[hostTextField release];
