@@ -1,0 +1,32 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "0DA99CD13DD4EB22825F51E839164149C1ACB276",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "3d429ead-c47d-b04e-b746-2a0b5c1375b7++2038" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "0DA99CD13DD4EB22825F51E839164149C1ACB276" : 0,
+    "3d429ead-c47d-b04e-b746-2a0b5c1375b7++2038" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "200FB061-B126-436A-BE08-17374E6321A2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "0DA99CD13DD4EB22825F51E839164149C1ACB276" : "CommLibDemos",
+    "3d429ead-c47d-b04e-b746-2a0b5c1375b7++2038" : "..\/WebORBiOS"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "CommLibDemos",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "CommLibDemos.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/slavavdovichenko\/CommLibDemos.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0DA99CD13DD4EB22825F51E839164149C1ACB276"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/www.themidnightcoders.com",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3d429ead-c47d-b04e-b746-2a0b5c1375b7++2038"
+    }
+  ]
+}

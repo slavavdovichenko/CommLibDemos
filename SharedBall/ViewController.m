@@ -265,8 +265,8 @@
 	hostTextField.returnKeyType = UIReturnKeyDone;
 	hostTextField.clearButtonMode = UITextFieldViewModeWhileEditing;
 	//hostTextField.text = @"localhost";
+    //hostTextField.text = @"10.0.1.71";
     hostTextField.text = @"10.0.1.62";
-	//hostTextField.text = @"demo.eudata.biz";
  	hostTextField.delegate = self;
 	[self.view addSubview:hostTextField];
 	//[hostTextField release];
@@ -293,7 +293,7 @@
 	//appTextField.text = @"SharedObjectsApp";
 	//appTextField.text = @"SharedBall";
     appTextField.text = @"live";
-	//appTextField.text = @"wcc";
+	//appTextField.text = @"vod";
 	appTextField.delegate = self;
 	[self.view addSubview:appTextField];
 	//[appTextField release];
@@ -441,7 +441,7 @@
 }
 
 -(void)resultReceived:(id <IServiceCall>)call {
-    NSLog(@" $$$$$$ <IRTMPClientDelegate>> resultReceived\n");
+    NSLog(@" $$$$$$ <IRTMPClientDelegate>> resultReceived: %@ <%@>\n%@\n", [call getServiceMethodName], [call getServiceName], [call getArguments]);
 }
 
 #pragma mark -
@@ -464,11 +464,11 @@
 }
 
 -(void)onSharedObjectUpdate:(id <IClientSharedObject>)so withKey:(id)key andValue:(id)value {
-    // NSLog(@"ISharedObjectListener -> onSharedObjectUpdate('%@') withKey:%@ andValue:%@", [so getName], key, value);
+     NSLog(@"ISharedObjectListener -> onSharedObjectUpdate('%@') withKey:%@ andValue:%@", [so getName], key, value);
 }
 
 -(void)onSharedObjectUpdate:(id <IClientSharedObject>)so withValues:(id <IAttributeStore>)values {
-	//NSLog(@"ISharedObjectListener -> onSharedObjectUpdate('%@') withValues:%@", [so getName], [values getAttributes]);
+	NSLog(@"ISharedObjectListener -> onSharedObjectUpdate('%@') withValues:%@", [so getName], [values getAttributes]);
 }
 
 -(void)onSharedObjectUpdate:(id <IClientSharedObject>)so withDictionary:(NSDictionary *)values {
@@ -481,7 +481,7 @@
     float yPoint = (y)?[y floatValue]:activeImage.center.y;
     activeImage.center = CGPointMake(xPoint, yPoint);
     
-    NSLog(@"<<< license = %@", [Base64 decode:[ballCoord valueForKey:@"l"]]);
+    //NSLog(@"<<< license = %@", [Base64 decode:[ballCoord valueForKey:@"l"]]);
     
     memoryLabel.text = [self showMemory];
 }
