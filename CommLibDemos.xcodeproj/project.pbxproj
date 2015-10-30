@@ -75,7 +75,6 @@
 		F97C89201705854700F0B611 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F97C89191705850200F0B611 /* CoreData.framework */; };
 		F97C89211705854D00F0B611 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F97C89191705850200F0B611 /* CoreData.framework */; };
 		F97C89221705855900F0B611 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F97C89191705850200F0B611 /* CoreData.framework */; };
-		F988ADFF1BCBEC1400016A27 /* license.bin in Resources */ = {isa = PBXBuildFile; fileRef = F988ADFE1BCBEC1400016A27 /* license.bin */; };
 		F998ECDA15C030AB000D49EA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E0B681149F607800262B0A /* UIKit.framework */; };
 		F998ECDB15C030AB000D49EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E0B683149F607800262B0A /* Foundation.framework */; };
 		F998ECDC15C030AB000D49EA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E0B685149F607800262B0A /* CoreGraphics.framework */; };
@@ -194,7 +193,6 @@
 		F96A9C5D149FEF2B000F1FC7 /* weborb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = weborb.png; sourceTree = "<group>"; };
 		F96A9C5E149FEF2B000F1FC7 /* WhiteboardDemo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WhiteboardDemo.png; sourceTree = "<group>"; };
 		F97C89191705850200F0B611 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		F988ADFE1BCBEC1400016A27 /* license.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; name = license.bin; path = ../../WebORBiOS/CommLibiOS/com.themidnightcoders.license/license.bin; sourceTree = "<group>"; };
 		F98A7D931B3039DD007635B6 /* Communication Library for iOS User Guide.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Communication Library for iOS User Guide.pdf"; sourceTree = "<group>"; };
 		F98A7D941B3039DD007635B6 /* WeborbClient Class Reference.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "WeborbClient Class Reference.pdf"; sourceTree = "<group>"; };
 		F98A7D971B303A00007635B6 /* AMFSerializer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMFSerializer.h; sourceTree = "<group>"; };
@@ -608,7 +606,6 @@
 		F9E0B672149F607700262B0A = {
 			isa = PBXGroup;
 			children = (
-				F988ADFE1BCBEC1400016A27 /* license.bin */,
 				F9D5C1721BB52F8A00CA85F6 /* README.md */,
 				F98A7D921B3039DD007635B6 /* doc */,
 				F96A9C52149FEF2B000F1FC7 /* art */,
@@ -971,7 +968,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F988ADFF1BCBEC1400016A27 /* license.bin in Resources */,
 				F90E310F14A1153800F183FC /* InfoPlist.strings in Resources */,
 				F90E311814A1153800F183FC /* MainStoryboard_iPhone.storyboard in Resources */,
 				F90E311B14A1153900F183FC /* MainStoryboard_iPad.storyboard in Resources */,
