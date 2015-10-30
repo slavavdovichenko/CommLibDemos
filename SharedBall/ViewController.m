@@ -262,8 +262,8 @@
     hostTextField.keyboardType = UIKeyboardTypeNumbersAndPunctuation;
 	hostTextField.returnKeyType = UIReturnKeyDone;
 	hostTextField.clearButtonMode = UITextFieldViewModeWhileEditing;
-	//hostTextField.text = @"localhost";
-    hostTextField.text = @"10.0.1.71";
+	hostTextField.text = @"52.17.164.229";
+    //hostTextField.text = @"10.0.1.71";
     //hostTextField.text = @"10.0.1.62";
  	hostTextField.delegate = self;
 	[self.view addSubview:hostTextField];
@@ -290,8 +290,8 @@
 	appTextField.clearButtonMode = UITextFieldViewModeWhileEditing;
 	//appTextField.text = @"SharedObjectsApp";
 	//appTextField.text = @"so";
-    //appTextField.text = @"live";
-	appTextField.text = @"SharedBall";
+    appTextField.text = @"live";
+	//appTextField.text = @"SharedBall";
 	appTextField.delegate = self;
 	[self.view addSubview:appTextField];
 	//[appTextField release];
