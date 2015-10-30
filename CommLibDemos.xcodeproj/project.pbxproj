@@ -62,6 +62,14 @@
 		F90E314F14A12EF100F183FC /* weborb.png in Resources */ = {isa = PBXBuildFile; fileRef = F96A9C5D149FEF2B000F1FC7 /* weborb.png */; };
 		F92809D214A054A6003956F7 /* RMI-SM.png in Resources */ = {isa = PBXBuildFile; fileRef = F92809D114A054A6003956F7 /* RMI-SM.png */; };
 		F96A9C6C149FF13D000F1FC7 /* weborb.png in Resources */ = {isa = PBXBuildFile; fileRef = F96A9C5D149FEF2B000F1FC7 /* weborb.png */; };
+		F9733D451BE42EB7003E2112 /* CommLibiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9733D171BE42E77003E2112 /* CommLibiOS.a */; };
+		F9733D461BE42EBF003E2112 /* CommLibiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9733D171BE42E77003E2112 /* CommLibiOS.a */; };
+		F9733D471BE42EC5003E2112 /* CommLibiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9733D171BE42E77003E2112 /* CommLibiOS.a */; };
+		F9733D481BE42ECA003E2112 /* CommLibiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9733D171BE42E77003E2112 /* CommLibiOS.a */; };
+		F9733D491BE42ED0003E2112 /* CommLibiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9733D171BE42E77003E2112 /* CommLibiOS.a */; };
+		F9733D4A1BE42ED5003E2112 /* CommLibiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9733D171BE42E77003E2112 /* CommLibiOS.a */; };
+		F9733D4B1BE42EDA003E2112 /* CommLibiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9733D171BE42E77003E2112 /* CommLibiOS.a */; };
+		F9733D4C1BE42EDF003E2112 /* CommLibiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9733D171BE42E77003E2112 /* CommLibiOS.a */; };
 		F97C891C1705852D00F0B611 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F97C89191705850200F0B611 /* CoreData.framework */; };
 		F97C891D1705853300F0B611 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F97C89191705850200F0B611 /* CoreData.framework */; };
 		F97C891E1705853A00F0B611 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F97C89191705850200F0B611 /* CoreData.framework */; };
@@ -181,6 +189,48 @@
 		F96A9C5C149FEF2B000F1FC7 /* ServerCallback.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ServerCallback.png; sourceTree = "<group>"; };
 		F96A9C5D149FEF2B000F1FC7 /* weborb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = weborb.png; sourceTree = "<group>"; };
 		F96A9C5E149FEF2B000F1FC7 /* WhiteboardDemo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WhiteboardDemo.png; sourceTree = "<group>"; };
+		F9733D171BE42E77003E2112 /* CommLibiOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = CommLibiOS.a; sourceTree = "<group>"; };
+		F9733D191BE42E77003E2112 /* AMFSerializer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMFSerializer.h; sourceTree = "<group>"; };
+		F9733D1A1BE42E77003E2112 /* BinaryCodec.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BinaryCodec.h; sourceTree = "<group>"; };
+		F9733D1B1BE42E77003E2112 /* BinaryStream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BinaryStream.h; sourceTree = "<group>"; };
+		F9733D1C1BE42E77003E2112 /* DEBUG.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DEBUG.h; sourceTree = "<group>"; };
+		F9733D1D1BE42E77003E2112 /* FlashorbBinaryReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlashorbBinaryReader.h; sourceTree = "<group>"; };
+		F9733D1E1BE42E77003E2112 /* FlashorbBinaryWriter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlashorbBinaryWriter.h; sourceTree = "<group>"; };
+		F9733D1F1BE42E77003E2112 /* IAttributeStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IAttributeStore.h; sourceTree = "<group>"; };
+		F9733D201BE42E77003E2112 /* IClientSharedObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IClientSharedObject.h; sourceTree = "<group>"; };
+		F9733D211BE42E77003E2112 /* IClientSharedObjectDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IClientSharedObjectDelegate.h; sourceTree = "<group>"; };
+		F9733D221BE42E77003E2112 /* IPendingServiceCallback.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IPendingServiceCallback.h; sourceTree = "<group>"; };
+		F9733D231BE42E77003E2112 /* IPersistable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IPersistable.h; sourceTree = "<group>"; };
+		F9733D241BE42E77003E2112 /* IRTMProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRTMProtocol.h; sourceTree = "<group>"; };
+		F9733D251BE42E77003E2112 /* IServiceCall.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IServiceCall.h; sourceTree = "<group>"; };
+		F9733D261BE42E77003E2112 /* ISharedObjectListener.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ISharedObjectListener.h; sourceTree = "<group>"; };
+		F9733D271BE42E77003E2112 /* MemoryTicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MemoryTicker.h; sourceTree = "<group>"; };
+		F9733D281BE42E77003E2112 /* Responder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Responder.h; sourceTree = "<group>"; };
+		F9733D291BE42E77003E2112 /* RTMPClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTMPClient.h; sourceTree = "<group>"; };
+		F9733D2A1BE42E77003E2112 /* Types.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Types.h; sourceTree = "<group>"; };
+		F9733D2B1BE42E77003E2112 /* WeborbClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeborbClient.h; sourceTree = "<group>"; };
+		F9733D2E1BE42E77003E2112 /* AMFSerializer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMFSerializer.h; sourceTree = "<group>"; };
+		F9733D2F1BE42E77003E2112 /* BinaryCodec.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BinaryCodec.h; sourceTree = "<group>"; };
+		F9733D301BE42E77003E2112 /* BinaryStream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BinaryStream.h; sourceTree = "<group>"; };
+		F9733D311BE42E77003E2112 /* DEBUG.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DEBUG.h; sourceTree = "<group>"; };
+		F9733D321BE42E77003E2112 /* FlashorbBinaryReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlashorbBinaryReader.h; sourceTree = "<group>"; };
+		F9733D331BE42E77003E2112 /* FlashorbBinaryWriter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlashorbBinaryWriter.h; sourceTree = "<group>"; };
+		F9733D341BE42E77003E2112 /* IAttributeStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IAttributeStore.h; sourceTree = "<group>"; };
+		F9733D351BE42E77003E2112 /* IClientSharedObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IClientSharedObject.h; sourceTree = "<group>"; };
+		F9733D361BE42E77003E2112 /* IClientSharedObjectDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IClientSharedObjectDelegate.h; sourceTree = "<group>"; };
+		F9733D371BE42E77003E2112 /* IPendingServiceCallback.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IPendingServiceCallback.h; sourceTree = "<group>"; };
+		F9733D381BE42E77003E2112 /* IPersistable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IPersistable.h; sourceTree = "<group>"; };
+		F9733D391BE42E77003E2112 /* IRTMProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRTMProtocol.h; sourceTree = "<group>"; };
+		F9733D3A1BE42E77003E2112 /* IServiceCall.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IServiceCall.h; sourceTree = "<group>"; };
+		F9733D3B1BE42E77003E2112 /* ISharedObjectListener.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ISharedObjectListener.h; sourceTree = "<group>"; };
+		F9733D3C1BE42E77003E2112 /* MemoryTicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MemoryTicker.h; sourceTree = "<group>"; };
+		F9733D3D1BE42E77003E2112 /* Responder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Responder.h; sourceTree = "<group>"; };
+		F9733D3E1BE42E77003E2112 /* RTMPClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTMPClient.h; sourceTree = "<group>"; };
+		F9733D3F1BE42E77003E2112 /* Types.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Types.h; sourceTree = "<group>"; };
+		F9733D401BE42E77003E2112 /* WeborbClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeborbClient.h; sourceTree = "<group>"; };
+		F9733D411BE42E77003E2112 /* libCommLib-osx.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libCommLib-osx.a"; sourceTree = "<group>"; };
+		F9733D431BE42E77003E2112 /* Communication Library for iOS User Guide.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Communication Library for iOS User Guide.pdf"; sourceTree = "<group>"; };
+		F9733D441BE42E77003E2112 /* WeborbClient Class Reference.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "WeborbClient Class Reference.pdf"; sourceTree = "<group>"; };
 		F97C89191705850200F0B611 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		F998ECD815C030AB000D49EA /* SharedPhoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SharedPhoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F998ECDF15C030AB000D49EA /* SharedPhoto-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SharedPhoto-Info.plist"; sourceTree = "<group>"; };
@@ -220,6 +270,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9733D4B1BE42EDA003E2112 /* CommLibiOS.a in Frameworks */,
 				F9046D0C155D42AA00658F91 /* UIKit.framework in Frameworks */,
 				F97C89211705854D00F0B611 /* CoreData.framework in Frameworks */,
 			);
@@ -229,6 +280,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9733D461BE42EBF003E2112 /* CommLibiOS.a in Frameworks */,
 				F90E309B14A1012E00F183FC /* UIKit.framework in Frameworks */,
 				F97C891C1705852D00F0B611 /* CoreData.framework in Frameworks */,
 			);
@@ -238,6 +290,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9733D471BE42EC5003E2112 /* CommLibiOS.a in Frameworks */,
 				F90E30C114A10F3800F183FC /* UIKit.framework in Frameworks */,
 				F97C891D1705853300F0B611 /* CoreData.framework in Frameworks */,
 			);
@@ -247,6 +300,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9733D481BE42ECA003E2112 /* CommLibiOS.a in Frameworks */,
 				F90E30E614A1150800F183FC /* UIKit.framework in Frameworks */,
 				F97C891E1705853A00F0B611 /* CoreData.framework in Frameworks */,
 			);
@@ -256,6 +310,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9733D491BE42ED0003E2112 /* CommLibiOS.a in Frameworks */,
 				F90E310714A1153800F183FC /* UIKit.framework in Frameworks */,
 				F97C891F1705854100F0B611 /* CoreData.framework in Frameworks */,
 			);
@@ -265,6 +320,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9733D4A1BE42ED5003E2112 /* CommLibiOS.a in Frameworks */,
 				F90E312814A1155E00F183FC /* UIKit.framework in Frameworks */,
 				F97C89201705854700F0B611 /* CoreData.framework in Frameworks */,
 				F9C3F22D1BAC4E6000421D56 /* CoreGraphics.framework in Frameworks */,
@@ -275,6 +331,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9733D4C1BE42EDF003E2112 /* CommLibiOS.a in Frameworks */,
 				F998ECFA15C0310C000D49EA /* AVFoundation.framework in Frameworks */,
 				F97C89221705855900F0B611 /* CoreData.framework in Frameworks */,
 				F998ECF915C03107000D49EA /* CoreMedia.framework in Frameworks */,
@@ -291,6 +348,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9733D451BE42EB7003E2112 /* CommLibiOS.a in Frameworks */,
 				F9C3F22B1BAC4CC800421D56 /* UIKit.framework in Frameworks */,
 				F9C3F22C1BAC4D5900421D56 /* CoreData.framework in Frameworks */,
 			);
@@ -476,6 +534,85 @@
 			path = icons;
 			sourceTree = "<group>";
 		};
+		F9733D161BE42E77003E2112 /* CommLibiOS */ = {
+			isa = PBXGroup;
+			children = (
+				F9733D171BE42E77003E2112 /* CommLibiOS.a */,
+				F9733D181BE42E77003E2112 /* include */,
+			);
+			path = CommLibiOS;
+			sourceTree = "<group>";
+		};
+		F9733D181BE42E77003E2112 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				F9733D191BE42E77003E2112 /* AMFSerializer.h */,
+				F9733D1A1BE42E77003E2112 /* BinaryCodec.h */,
+				F9733D1B1BE42E77003E2112 /* BinaryStream.h */,
+				F9733D1C1BE42E77003E2112 /* DEBUG.h */,
+				F9733D1D1BE42E77003E2112 /* FlashorbBinaryReader.h */,
+				F9733D1E1BE42E77003E2112 /* FlashorbBinaryWriter.h */,
+				F9733D1F1BE42E77003E2112 /* IAttributeStore.h */,
+				F9733D201BE42E77003E2112 /* IClientSharedObject.h */,
+				F9733D211BE42E77003E2112 /* IClientSharedObjectDelegate.h */,
+				F9733D221BE42E77003E2112 /* IPendingServiceCallback.h */,
+				F9733D231BE42E77003E2112 /* IPersistable.h */,
+				F9733D241BE42E77003E2112 /* IRTMProtocol.h */,
+				F9733D251BE42E77003E2112 /* IServiceCall.h */,
+				F9733D261BE42E77003E2112 /* ISharedObjectListener.h */,
+				F9733D271BE42E77003E2112 /* MemoryTicker.h */,
+				F9733D281BE42E77003E2112 /* Responder.h */,
+				F9733D291BE42E77003E2112 /* RTMPClient.h */,
+				F9733D2A1BE42E77003E2112 /* Types.h */,
+				F9733D2B1BE42E77003E2112 /* WeborbClient.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		F9733D2C1BE42E77003E2112 /* CommLibOSX */ = {
+			isa = PBXGroup;
+			children = (
+				F9733D2D1BE42E77003E2112 /* include */,
+				F9733D411BE42E77003E2112 /* libCommLib-osx.a */,
+			);
+			path = CommLibOSX;
+			sourceTree = "<group>";
+		};
+		F9733D2D1BE42E77003E2112 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				F9733D2E1BE42E77003E2112 /* AMFSerializer.h */,
+				F9733D2F1BE42E77003E2112 /* BinaryCodec.h */,
+				F9733D301BE42E77003E2112 /* BinaryStream.h */,
+				F9733D311BE42E77003E2112 /* DEBUG.h */,
+				F9733D321BE42E77003E2112 /* FlashorbBinaryReader.h */,
+				F9733D331BE42E77003E2112 /* FlashorbBinaryWriter.h */,
+				F9733D341BE42E77003E2112 /* IAttributeStore.h */,
+				F9733D351BE42E77003E2112 /* IClientSharedObject.h */,
+				F9733D361BE42E77003E2112 /* IClientSharedObjectDelegate.h */,
+				F9733D371BE42E77003E2112 /* IPendingServiceCallback.h */,
+				F9733D381BE42E77003E2112 /* IPersistable.h */,
+				F9733D391BE42E77003E2112 /* IRTMProtocol.h */,
+				F9733D3A1BE42E77003E2112 /* IServiceCall.h */,
+				F9733D3B1BE42E77003E2112 /* ISharedObjectListener.h */,
+				F9733D3C1BE42E77003E2112 /* MemoryTicker.h */,
+				F9733D3D1BE42E77003E2112 /* Responder.h */,
+				F9733D3E1BE42E77003E2112 /* RTMPClient.h */,
+				F9733D3F1BE42E77003E2112 /* Types.h */,
+				F9733D401BE42E77003E2112 /* WeborbClient.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		F9733D421BE42E77003E2112 /* doc */ = {
+			isa = PBXGroup;
+			children = (
+				F9733D431BE42E77003E2112 /* Communication Library for iOS User Guide.pdf */,
+				F9733D441BE42E77003E2112 /* WeborbClient Class Reference.pdf */,
+			);
+			path = doc;
+			sourceTree = "<group>";
+		};
 		F998ECDD15C030AB000D49EA /* SharedPhoto */ = {
 			isa = PBXGroup;
 			children = (
@@ -504,6 +641,9 @@
 		F9E0B672149F607700262B0A = {
 			isa = PBXGroup;
 			children = (
+				F9733D161BE42E77003E2112 /* CommLibiOS */,
+				F9733D2C1BE42E77003E2112 /* CommLibOSX */,
+				F9733D421BE42E77003E2112 /* doc */,
 				F9D5C1721BB52F8A00CA85F6 /* README.md */,
 				F96A9C52149FEF2B000F1FC7 /* art */,
 				F9E0B6B5149FD07D00262B0A /* HttpRemoting */,
@@ -1168,7 +1308,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/CommLibiOS\"",
+					"$(PROJECT_DIR)/CommLibiOS",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.themidnightcoders.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1188,7 +1328,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/CommLibiOS\"",
+					"$(PROJECT_DIR)/CommLibiOS",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.themidnightcoders.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1207,7 +1347,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/CommLibiOS\"",
+					"$(PROJECT_DIR)/CommLibiOS",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.themidnightcoders.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1226,7 +1366,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/CommLibiOS\"",
+					"$(PROJECT_DIR)/CommLibiOS",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.themidnightcoders.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1245,7 +1385,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/CommLibiOS\"",
+					"$(PROJECT_DIR)/CommLibiOS",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.themidnightcoders.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1264,7 +1404,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/CommLibiOS\"",
+					"$(PROJECT_DIR)/CommLibiOS",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.themidnightcoders.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1285,7 +1425,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/CommLibiOS\"",
+					"$(PROJECT_DIR)/CommLibiOS",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.themidnightcoders.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1306,7 +1446,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/CommLibiOS\"",
+					"$(PROJECT_DIR)/CommLibiOS",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.themidnightcoders.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1325,7 +1465,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/CommLibiOS\"",
+					"$(PROJECT_DIR)/CommLibiOS",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.themidnightcoders.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1345,7 +1485,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/CommLibiOS\"",
+					"$(PROJECT_DIR)/CommLibiOS",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.themidnightcoders.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1365,7 +1505,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/CommLibiOS\"",
+					"$(PROJECT_DIR)/CommLibiOS",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.themidnightcoders.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1384,7 +1524,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/CommLibiOS\"",
+					"$(PROJECT_DIR)/CommLibiOS",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.themidnightcoders.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1405,7 +1545,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/CommLibiOS\"",
+					"$(PROJECT_DIR)/CommLibiOS",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.themidnightcoders.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1427,7 +1567,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/CommLibiOS\"",
+					"$(PROJECT_DIR)/CommLibiOS",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.themidnightcoders.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1521,7 +1661,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/CommLibiOS\"",
+					"$(PROJECT_DIR)/CommLibiOS",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.themidnightcoders.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1542,7 +1682,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/CommLibiOS\"",
+					"$(PROJECT_DIR)/CommLibiOS",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.themidnightcoders.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
