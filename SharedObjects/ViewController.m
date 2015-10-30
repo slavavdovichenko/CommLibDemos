@@ -51,7 +51,8 @@
         
         // send "getSharedObject (+ connect)"
         NSString *name = @"SharedBall";
-        clientSO = [socket getSharedObject:name persistent:NO owner:self];
+        //clientSO = [socket getSharedObject:name persistent:NO owner:self];
+        clientSO = [socket getSharedObject:name persistent:YES owner:self];
     }
     else 
         if (![clientSO isConnected]) {

@@ -57,7 +57,8 @@
     
     [super viewDidLoad];
     
-    hostTextField.text = @"rtmp://10.0.1.62:1935/live";
+    //hostTextField.text = @"rtmp://10.0.1.62:1935/live";
+    hostTextField.text = @"rtmp://10.0.1.71:1935/so";
     hostTextField.delegate = self;
     
     nameTextField.text = @"SharedPhoto";

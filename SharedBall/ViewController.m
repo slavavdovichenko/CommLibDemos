@@ -19,19 +19,6 @@
 #pragma mark -
 #pragma mark Private Methods 
 
-// license
-
--(NSData *)licenseData {
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"license" ofType:@"bin"];    
-    //NSLog(@">>>> licenseData >>>> path: %@", path);
-    if (!path)
-        return nil;
-    
-    NSData *license = [NSData dataWithContentsOfFile:path];
-    NSLog(@">>> license: %@", license);
-    return license;
-}
-
 // memory
 
 -(double) getAvailableBytes
@@ -75,8 +62,13 @@
         printf("connectSO SEND ----> getSharedObject\n");
         
         // send "getSharedObject (+ connect)"
+#if 0
         NSString *name = @"BallControl";
+#else
+        NSString *name = @"ballPosition";
+#endif
         clientSO = [socket getSharedObject:name persistent:NO owner:self];
+        //clientSO = [socket getSharedObject:name persistent:YES owner:self];
     }
     else 
         if (![clientSO isConnected]) {
@@ -101,17 +93,23 @@
         return;
     
     activeImage.center = point;
-    
+#if 0
     // setAttributes
     NSMutableDictionary *dict = [NSMutableDictionary dictionary];    
     [dict setValue:[NSNumber numberWithFloat:point.x] forKey:@"x"];
     [dict setValue:[NSNumber numberWithFloat:point.y] forKey:@"y"];
-    [dict setValue:[self licenseData] forKey:@"l"];
     //--------------------------------
     NSMutableDictionary *ballCoord = [NSMutableDictionary dictionary];    
     [ballCoord setValue:dict forKey:@"ballCoordinates"];
     [clientSO setAttributes:ballCoord];
     
+    NSLog(@">>> ballCoordinates: %@", ballCoord);
+#else
+    NSDictionary *dict = @{@"x":@(point.x), @"y":@(point.y)};
+    [clientSO setAttributes:dict];
+    NSLog(@">>> ball coordinates: %@", dict);
+#endif
+
     memoryLabel.text = [self showMemory];
 }
 
@@ -265,8 +263,8 @@
 	hostTextField.returnKeyType = UIReturnKeyDone;
 	hostTextField.clearButtonMode = UITextFieldViewModeWhileEditing;
 	//hostTextField.text = @"localhost";
-    //hostTextField.text = @"10.0.1.71";
-    hostTextField.text = @"10.0.1.62";
+    hostTextField.text = @"10.0.1.71";
+    //hostTextField.text = @"10.0.1.62";
  	hostTextField.delegate = self;
 	[self.view addSubview:hostTextField];
 	//[hostTextField release];
@@ -291,9 +289,9 @@
 	appTextField.returnKeyType = UIReturnKeyDone;
 	appTextField.clearButtonMode = UITextFieldViewModeWhileEditing;
 	//appTextField.text = @"SharedObjectsApp";
-	//appTextField.text = @"SharedBall";
-    appTextField.text = @"live";
-	//appTextField.text = @"vod";
+	//appTextField.text = @"so";
+    //appTextField.text = @"live";
+	appTextField.text = @"SharedBall";
 	appTextField.delegate = self;
 	[self.view addSubview:appTextField];
 	//[appTextField release];
@@ -319,7 +317,7 @@
     socket = nil;
     clientSO = nil;
     
-    [DebLog setIsActive:YES];
+    //[DebLog setIsActive:YES];
    
 	// Do any additional setup after loading the view, typically from a nib.
 }
@@ -473,15 +471,17 @@
 
 -(void)onSharedObjectUpdate:(id <IClientSharedObject>)so withDictionary:(NSDictionary *)values {
 	NSLog(@"ISharedObjectListener -> onSharedObjectUpdate('%@') withDictionary:%@", [so getName], values);
-    
+#if 0
     NSDictionary *ballCoord = [values valueForKey:@"ballCoordinates"];
     NSNumber *x = [ballCoord valueForKey:@"x"];
     NSNumber *y = [ballCoord valueForKey:@"y"];
+#else
+    NSNumber *x = values[@"x"];
+    NSNumber *y = values[@"y"];
+#endif
     float xPoint = (x)?[x floatValue]:activeImage.center.x;
     float yPoint = (y)?[y floatValue]:activeImage.center.y;
     activeImage.center = CGPointMake(xPoint, yPoint);
-    
-    //NSLog(@"<<< license = %@", [Base64 decode:[ballCoord valueForKey:@"l"]]);
     
     memoryLabel.text = [self showMemory];
 }
@@ -491,7 +491,7 @@
 }
 
 -(void)onSharedObjectClear:(id <IClientSharedObject>)so {
-	NSLog(@"ISharedObjectListener -> )onSharedObjectClear('%@')", [so getName]);    
+	NSLog(@"ISharedObjectListener -> onSharedObjectClear('%@')", [so getName]);    
 }
 
 -(void)onSharedObjectSend:(id <IClientSharedObject>)so withMethod:(NSString *)method andParams:(NSArray *)parms {
