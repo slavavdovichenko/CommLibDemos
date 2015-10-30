@@ -262,9 +262,9 @@
     hostTextField.keyboardType = UIKeyboardTypeNumbersAndPunctuation;
 	hostTextField.returnKeyType = UIReturnKeyDone;
 	hostTextField.clearButtonMode = UITextFieldViewModeWhileEditing;
-	hostTextField.text = @"52.17.164.229";
+	//hostTextField.text = @"localhost";
     //hostTextField.text = @"10.0.1.71";
-    //hostTextField.text = @"10.0.1.62";
+    hostTextField.text = @"10.0.1.62";
  	hostTextField.delegate = self;
 	[self.view addSubview:hostTextField];
 	//[hostTextField release];
