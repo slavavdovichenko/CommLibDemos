@@ -50,9 +50,9 @@
         printf("connectSO SEND ----> getSharedObject\n");
         
         // send "getSharedObject (+ connect)"
-        NSString *name = @"SharedBall";
-        //clientSO = [socket getSharedObject:name persistent:NO owner:self];
-        clientSO = [socket getSharedObject:name persistent:YES owner:self];
+        NSString *name = @"SharedObjects";
+        clientSO = [socket getSharedObject:name persistent:NO owner:self];
+        //clientSO = [socket getSharedObject:name persistent:YES owner:self];
     }
     else 
         if (![clientSO isConnected]) {
@@ -322,16 +322,16 @@
 	//buttons
 	btnEchoInt = [UIButton buttonWithType:UIButtonTypeRoundedRect];
 	btnEchoInt.frame = CGRectMake(0.0, 0.0, 300.0, 30.0);
-	btnEchoInt.center = CGPointMake(160.0, 60.0);
+	btnEchoInt.center = CGPointMake(160.0, 160.0);
 	btnEchoInt.titleLabel.font = [UIFont boldSystemFontOfSize:12.0f];
-    [btnEchoInt setTitle:@"connectSO ('SharedBall')" forState:UIControlStateNormal];
+    [btnEchoInt setTitle:@"connectSO ('SharedObject')" forState:UIControlStateNormal];
 	[btnEchoInt addTarget:self action:@selector(connectSO) forControlEvents:UIControlEventTouchUpInside];
     btnEchoInt.hidden = YES;
 	[self.view addSubview:btnEchoInt];
     
 	btnEchoFloat = [UIButton buttonWithType:UIButtonTypeRoundedRect];
 	btnEchoFloat.frame = CGRectMake(0.0, 0.0, 300.0, 30.0);
-	btnEchoFloat.center = CGPointMake(160.0, 105.0);
+	btnEchoFloat.center = CGPointMake(160.0, 205.0);
 	btnEchoFloat.titleLabel.font = [UIFont boldSystemFontOfSize:12.0f];
     [btnEchoFloat setTitle:@"getAttributeSO" forState:UIControlStateNormal];
 	[btnEchoFloat addTarget:self action:@selector(getAttributeSO) forControlEvents:UIControlEventTouchUpInside];
@@ -340,7 +340,7 @@
 	
 	btnEchoString = [UIButton buttonWithType:UIButtonTypeRoundedRect];
 	btnEchoString.frame = CGRectMake(0.0, 0.0, 300.0, 30.0);
-	btnEchoString.center = CGPointMake(160.0, 150.0);
+	btnEchoString.center = CGPointMake(160.0, 250.0);
 	btnEchoString.titleLabel.font = [UIFont boldSystemFontOfSize:12.0f];
 	[btnEchoString setTitle:@"removeAttributeSO" forState:UIControlStateNormal];
 	[btnEchoString addTarget:self action:@selector(removeAttributeSO) forControlEvents:UIControlEventTouchUpInside];
@@ -349,7 +349,7 @@
 	
 	btnEchoStringArray = [UIButton buttonWithType:UIButtonTypeRoundedRect];
 	btnEchoStringArray.frame = CGRectMake(0.0, 0.0, 300.0, 30.0);
-	btnEchoStringArray.center = CGPointMake(160.0, 195.0);
+	btnEchoStringArray.center = CGPointMake(160.0, 295.0);
 	btnEchoStringArray.titleLabel.font = [UIFont boldSystemFontOfSize:12.0f];
 	[btnEchoStringArray setTitle:@"sendMessageSO" forState:UIControlStateNormal];
 	[btnEchoStringArray addTarget:self action:@selector(sendMessageSO) forControlEvents:UIControlEventTouchUpInside];
@@ -358,7 +358,7 @@
 	
 	btnEchoByteArray = [UIButton buttonWithType:UIButtonTypeRoundedRect];
 	btnEchoByteArray.frame = CGRectMake(0.0, 0.0, 300.0, 30.0);
-	btnEchoByteArray.center = CGPointMake(160.0, 240.0);
+	btnEchoByteArray.center = CGPointMake(160.0, 340.0);
 	btnEchoByteArray.titleLabel.font = [UIFont boldSystemFontOfSize:12.0f];
     [btnEchoByteArray setTitle:@"getByteArray ([(0, 1, 2, 0xFF), size = 100000])" forState:UIControlStateNormal];
     [btnEchoByteArray addTarget:self action:@selector(getAttributeSOByteArray) forControlEvents:UIControlEventTouchUpInside];
@@ -499,7 +499,7 @@
     NSLog(@"ISharedObjectListener -> onSharedObjectConnect('%@')", [so getName]);
     
     if ([so isConnected])
-        [btnEchoInt setTitle:@"disconnectSO ('SharedBall')" forState:UIControlStateNormal];
+        [btnEchoInt setTitle:@"disconnectSO ('SharedObjects')" forState:UIControlStateNormal];
 	
     [self showAlert:
      [NSString stringWithFormat:@"EVENT: onSharedObjectConnect ('%@')\n", [so getName]]];
@@ -510,7 +510,7 @@
 	NSLog(@"ISharedObjectListener -> onSharedObjectDisconnect('%@')", [so getName]);
     
     if (![so isConnected])
-        [btnEchoInt setTitle:@"connectSO ('SharedBall')" forState:UIControlStateNormal];
+        [btnEchoInt setTitle:@"connectSO ('SharedObjects')" forState:UIControlStateNormal];
 	
     [self showAlert:
      [NSString stringWithFormat:@"EVENT: onSharedObjectDisconnect ('%@')\n", [so getName]]];
@@ -571,7 +571,7 @@
 
 -(void)onSharedObjectClear:(id <IClientSharedObject>)so {
     
-	NSLog(@"ISharedObjectListener -> )onSharedObjectClear('%@')", [so getName]);
+	NSLog(@"ISharedObjectListener -> onSharedObjectClear('%@')", [so getName]);
     
     [self showAlert:
      [NSString stringWithFormat:@"EVENT: onSharedObjectClear('%@')", [so getName]]];    

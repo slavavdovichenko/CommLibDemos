@@ -70,13 +70,20 @@
 		F9733D4A1BE42ED5003E2112 /* CommLibiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9733D171BE42E77003E2112 /* CommLibiOS.a */; };
 		F9733D4B1BE42EDA003E2112 /* CommLibiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9733D171BE42E77003E2112 /* CommLibiOS.a */; };
 		F9733D4C1BE42EDF003E2112 /* CommLibiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9733D171BE42E77003E2112 /* CommLibiOS.a */; };
-		F97C891C1705852D00F0B611 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F97C89191705850200F0B611 /* CoreData.framework */; };
 		F97C891D1705853300F0B611 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F97C89191705850200F0B611 /* CoreData.framework */; };
 		F97C891E1705853A00F0B611 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F97C89191705850200F0B611 /* CoreData.framework */; };
 		F97C891F1705854100F0B611 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F97C89191705850200F0B611 /* CoreData.framework */; };
 		F97C89201705854700F0B611 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F97C89191705850200F0B611 /* CoreData.framework */; };
 		F97C89211705854D00F0B611 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F97C89191705850200F0B611 /* CoreData.framework */; };
 		F97C89221705855900F0B611 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F97C89191705850200F0B611 /* CoreData.framework */; };
+		F98508AC1BE8B97A0052716C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F97C89191705850200F0B611 /* CoreData.framework */; };
+		F98508B41BE8BABF0052716C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98508B31BE8BABF0052716C /* AppDelegate.swift */; };
+		F98508B61BE8BABF0052716C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98508B51BE8BABF0052716C /* ViewController.swift */; };
+		F98508B91BE8BABF0052716C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F98508B71BE8BABF0052716C /* Main.storyboard */; };
+		F98508BB1BE8BABF0052716C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F98508BA1BE8BABF0052716C /* Assets.xcassets */; };
+		F98508BE1BE8BABF0052716C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F98508BC1BE8BABF0052716C /* LaunchScreen.storyboard */; };
+		F98508C31BE8BAF70052716C /* CommLibiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9733D171BE42E77003E2112 /* CommLibiOS.a */; };
+		F98508C51BE8CA670052716C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F97C89191705850200F0B611 /* CoreData.framework */; };
 		F998ECDA15C030AB000D49EA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E0B681149F607800262B0A /* UIKit.framework */; };
 		F998ECDB15C030AB000D49EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E0B683149F607800262B0A /* Foundation.framework */; };
 		F998ECDC15C030AB000D49EA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E0B685149F607800262B0A /* CoreGraphics.framework */; };
@@ -232,6 +239,14 @@
 		F9733D431BE42E77003E2112 /* Communication Library for iOS User Guide.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Communication Library for iOS User Guide.pdf"; sourceTree = "<group>"; };
 		F9733D441BE42E77003E2112 /* WeborbClient Class Reference.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "WeborbClient Class Reference.pdf"; sourceTree = "<group>"; };
 		F97C89191705850200F0B611 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F98508B11BE8BABE0052716C /* SharedObjectsSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SharedObjectsSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F98508B31BE8BABF0052716C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F98508B51BE8BABF0052716C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F98508B81BE8BABF0052716C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F98508BA1BE8BABF0052716C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F98508BD1BE8BABF0052716C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F98508BF1BE8BABF0052716C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F98508C41BE8BD700052716C /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 		F998ECD815C030AB000D49EA /* SharedPhoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SharedPhoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F998ECDF15C030AB000D49EA /* SharedPhoto-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SharedPhoto-Info.plist"; sourceTree = "<group>"; };
 		F998ECE115C030AB000D49EA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -281,8 +296,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9733D461BE42EBF003E2112 /* CommLibiOS.a in Frameworks */,
+				F98508AC1BE8B97A0052716C /* CoreData.framework in Frameworks */,
 				F90E309B14A1012E00F183FC /* UIKit.framework in Frameworks */,
-				F97C891C1705852D00F0B611 /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,6 +339,15 @@
 				F90E312814A1155E00F183FC /* UIKit.framework in Frameworks */,
 				F97C89201705854700F0B611 /* CoreData.framework in Frameworks */,
 				F9C3F22D1BAC4E6000421D56 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F98508AE1BE8BABE0052716C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F98508C51BE8CA670052716C /* CoreData.framework in Frameworks */,
+				F98508C31BE8BAF70052716C /* CommLibiOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -613,6 +637,19 @@
 			path = doc;
 			sourceTree = "<group>";
 		};
+		F98508B21BE8BABF0052716C /* SharedObjectsSwift */ = {
+			isa = PBXGroup;
+			children = (
+				F98508B31BE8BABF0052716C /* AppDelegate.swift */,
+				F98508B51BE8BABF0052716C /* ViewController.swift */,
+				F98508B71BE8BABF0052716C /* Main.storyboard */,
+				F98508BA1BE8BABF0052716C /* Assets.xcassets */,
+				F98508BC1BE8BABF0052716C /* LaunchScreen.storyboard */,
+				F98508BF1BE8BABF0052716C /* Info.plist */,
+			);
+			path = SharedObjectsSwift;
+			sourceTree = "<group>";
+		};
 		F998ECDD15C030AB000D49EA /* SharedPhoto */ = {
 			isa = PBXGroup;
 			children = (
@@ -641,6 +678,7 @@
 		F9E0B672149F607700262B0A = {
 			isa = PBXGroup;
 			children = (
+				F98508C41BE8BD700052716C /* Bridging-Header.h */,
 				F9D5C1721BB52F8A00CA85F6 /* README.md */,
 				F9733D421BE42E77003E2112 /* doc */,
 				F96A9C52149FEF2B000F1FC7 /* art */,
@@ -654,6 +692,7 @@
 				F90E312B14A1155E00F183FC /* SharedBoard */,
 				F9046D0F155D42AA00658F91 /* PubSubChat */,
 				F998ECDD15C030AB000D49EA /* SharedPhoto */,
+				F98508B21BE8BABF0052716C /* SharedObjectsSwift */,
 				F9E0B680149F607800262B0A /* Frameworks */,
 				F9E0B67E149F607800262B0A /* Products */,
 			);
@@ -670,6 +709,7 @@
 				F90E312614A1155E00F183FC /* SharedBoard.app */,
 				F9046D0A155D42AA00658F91 /* PubSubChat.app */,
 				F998ECD815C030AB000D49EA /* SharedPhoto.app */,
+				F98508B11BE8BABE0052716C /* SharedObjectsSwift.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -820,6 +860,23 @@
 			productReference = F90E312614A1155E00F183FC /* SharedBoard.app */;
 			productType = "com.apple.product-type.application";
 		};
+		F98508B01BE8BABE0052716C /* SharedObjectsSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F98508C01BE8BABF0052716C /* Build configuration list for PBXNativeTarget "SharedObjectsSwift" */;
+			buildPhases = (
+				F98508AD1BE8BABE0052716C /* Sources */,
+				F98508AE1BE8BABE0052716C /* Frameworks */,
+				F98508AF1BE8BABE0052716C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SharedObjectsSwift;
+			productName = SharedObjectsSwift;
+			productReference = F98508B11BE8BABE0052716C /* SharedObjectsSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
 		F998ECD715C030AB000D49EA /* SharedPhoto */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F998ECF415C030AB000D49EA /* Build configuration list for PBXNativeTarget "SharedPhoto" */;
@@ -860,6 +917,7 @@
 		F9E0B674149F607700262B0A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "The Midnight Coders, Inc.";
 				TargetAttributes = {
@@ -881,6 +939,9 @@
 					F90E312514A1155E00F183FC = {
 						DevelopmentTeam = 73FSJC7BUF;
 					};
+					F98508B01BE8BABE0052716C = {
+						CreatedOnToolsVersion = 7.1;
+					};
 					F998ECD715C030AB000D49EA = {
 						DevelopmentTeam = 73FSJC7BUF;
 					};
@@ -895,6 +956,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = F9E0B672149F607700262B0A;
 			productRefGroup = F9E0B67E149F607800262B0A /* Products */;
@@ -909,6 +971,7 @@
 				F90E312514A1155E00F183FC /* SharedBoard */,
 				F9046D09155D42AA00658F91 /* PubSubChat */,
 				F998ECD715C030AB000D49EA /* SharedPhoto */,
+				F98508B01BE8BABE0052716C /* SharedObjectsSwift */,
 			);
 		};
 /* End PBXProject section */
@@ -988,6 +1051,16 @@
 				F90E314B14A11F9000F183FC /* Whiteboard-SM.png in Resources */,
 				F90E314C14A11F9400F183FC /* WhiteboardDemo.png in Resources */,
 				F9FF0EBC160E618F00AEB3B7 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F98508AF1BE8BABE0052716C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F98508BE1BE8BABF0052716C /* LaunchScreen.storyboard in Resources */,
+				F98508BB1BE8BABF0052716C /* Assets.xcassets in Resources */,
+				F98508B91BE8BABF0052716C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1075,6 +1148,15 @@
 				F90E313214A1155F00F183FC /* main.m in Sources */,
 				F90E313614A1155F00F183FC /* AppDelegate.m in Sources */,
 				F90E313F14A1155F00F183FC /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F98508AD1BE8BABE0052716C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F98508B61BE8BABF0052716C /* ViewController.swift in Sources */,
+				F98508B41BE8BABF0052716C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1243,6 +1325,22 @@
 				F90E313B14A1155F00F183FC /* en */,
 			);
 			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		F98508B71BE8BABF0052716C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F98508B81BE8BABF0052716C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F98508BC1BE8BABF0052716C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F98508BD1BE8BABF0052716C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 		F998ECE015C030AB000D49EA /* InfoPlist.strings */ = {
@@ -1532,6 +1630,61 @@
 			};
 			name = Release;
 		};
+		F98508C11BE8BABF0052716C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = SharedObjectsSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CommLibiOS",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.themidnightcoders.SharedObjectsSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F98508C21BE8BABF0052716C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = SharedObjectsSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CommLibiOS",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.themidnightcoders.SharedObjectsSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
+			};
+			name = Release;
+		};
 		F998ECF215C030AB000D49EA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1747,6 +1900,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		F98508C01BE8BABF0052716C /* Build configuration list for PBXNativeTarget "SharedObjectsSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F98508C11BE8BABF0052716C /* Debug */,
+				F98508C21BE8BABF0052716C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 		F998ECF415C030AB000D49EA /* Build configuration list for PBXNativeTarget "SharedPhoto" */ = {
 			isa = XCConfigurationList;
