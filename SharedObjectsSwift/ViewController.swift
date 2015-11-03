@@ -38,13 +38,16 @@ class ViewController: UIViewController, IRTMPClientDelegate, ISharedObjectListen
         if (sharedObject == nil) {
             print("connectSO SEND ----> getSharedObject")
             sharedObject = rtmpClient?.getSharedObject(soName, persistent: false, owner: self)
-            return
         }
-        
-        if ((sharedObject?.isConnected()) != true) {
+        else {
             print("connectSO SEND ----> connect")
             sharedObject?.connect()
         }
+    }
+    
+    func setAttributeSO() {
+        let os = ["iOS":"Apple", "android":"Google"]
+        sharedObject?.setAttributes(os)
     }
 
     // IRTMPClientDelegate Methods
@@ -72,31 +75,36 @@ class ViewController: UIViewController, IRTMPClientDelegate, ISharedObjectListen
     // ISharedObjectListener methods
     
     func onSharedObjectConnect(so: IClientSharedObject!) {
-        print("<ISharedObjectListener> onSharedObjectConnect:[\(so.isConnected())]");
+        print("<ISharedObjectListener> onSharedObjectConnect:[\(so.getName())]");
     }
     
     func onSharedObjectDisconnect(so: IClientSharedObject!) {
-        print("<ISharedObjectListener> onSharedObjectDisconnect:[\(so.isConnected())]");
+        print("<ISharedObjectListener> onSharedObjectDisconnect:[\(so.getName())]");
     }
     
     func onSharedObjectUpdate(so: IClientSharedObject!, withDictionary values: [NSObject : AnyObject]!) {
+        print("<ISharedObjectListener> onSharedObjectUpdate:withDictionary: [\(values)]");
         
     }
     
     func onSharedObjectUpdate(so: IClientSharedObject!, withKey key: AnyObject!, andValue value: AnyObject!) {
+        print("<ISharedObjectListener> onSharedObjectUpdate:withKey: \(key)[\(value)]");
         
     }
     
     func onSharedObjectDelete(so: IClientSharedObject!, withKey key: String!) {
+        print("<ISharedObjectListener> onSharedObjectDelete: \(key)");
         
     }
     
     func onSharedObjectClear(so: IClientSharedObject!) {
-        print("<ISharedObjectListener> onSharedObjectClear:[\(so.isConnected())]");
+        print("<ISharedObjectListener> onSharedObjectClear:[\(so.getName())]");
+        
+        setAttributeSO()
     }
     
     func onSharedObjectSend(so: IClientSharedObject!, withMethod method: String!, andParams parms: [AnyObject]!) {
-        
+        print("<ISharedObjectListener> onSharedObjectSend: \(method)[\(parms)]");
     }
 }
 
