@@ -67,10 +67,16 @@
 #else
         NSString *name = @"ballPosition";
 #endif
+        
+#if 0
         clientSO = [socket getSharedObject:name persistent:NO owner:self];
-        //clientSO = [socket getSharedObject:name persistent:YES owner:self];
+#else
+        clientSO = [socket getSharedObject:name persistent:YES owner:self];
+#endif
+        
+        printf("connectSO ----> clientSO has been got\n");
     }
-    else 
+    else
         if (![clientSO isConnected]) {
             
             printf("connectSO SEND ----> connect\n");
@@ -263,7 +269,7 @@
 	hostTextField.returnKeyType = UIReturnKeyDone;
 	hostTextField.clearButtonMode = UITextFieldViewModeWhileEditing;
 	//hostTextField.text = @"localhost";
-    //hostTextField.text = @"10.0.1.71";
+    //hostTextField.text = @"192.168.0.103";
     hostTextField.text = @"10.0.1.62";
  	hostTextField.delegate = self;
 	[self.view addSubview:hostTextField];
@@ -317,7 +323,7 @@
     socket = nil;
     clientSO = nil;
     
-    //[DebLog setIsActive:YES];
+    [DebLog setIsActive:YES];
    
 	// Do any additional setup after loading the view, typically from a nib.
 }

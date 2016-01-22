@@ -100,13 +100,28 @@
 		F998ECFA15C0310C000D49EA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9CAAD2A15B5A643002C77A9 /* AVFoundation.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		F9C3F22B1BAC4CC800421D56 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E0B681149F607800262B0A /* UIKit.framework */; };
 		F9C3F22C1BAC4D5900421D56 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F97C89191705850200F0B611 /* CoreData.framework */; };
-		F9C3F22D1BAC4E6000421D56 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E0B685149F607800262B0A /* CoreGraphics.framework */; };
 		F9E0B6BA149FD07E00262B0A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F9E0B6B8149FD07E00262B0A /* InfoPlist.strings */; };
 		F9E0B6BC149FD07E00262B0A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E0B6BB149FD07E00262B0A /* main.m */; };
 		F9E0B6C0149FD07E00262B0A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E0B6BF149FD07E00262B0A /* AppDelegate.m */; };
 		F9E0B6C3149FD07E00262B0A /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9E0B6C1149FD07E00262B0A /* MainStoryboard_iPhone.storyboard */; };
 		F9E0B6C6149FD07F00262B0A /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9E0B6C4149FD07F00262B0A /* MainStoryboard_iPad.storyboard */; };
 		F9E0B6C9149FD07F00262B0A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E0B6C8149FD07F00262B0A /* ViewController.m */; };
+		F9FEEA151C4794DC00085DD8 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F959131214DC132900A3EB94 /* CFNetwork.framework */; };
+		F9FEEA161C4794F400085DD8 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E0B6CD149FD17300262B0A /* Security.framework */; };
+		F9FEEA171C47951800085DD8 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F959131214DC132900A3EB94 /* CFNetwork.framework */; };
+		F9FEEA181C47953300085DD8 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E0B6CD149FD17300262B0A /* Security.framework */; };
+		F9FEEA191C47956200085DD8 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F959131214DC132900A3EB94 /* CFNetwork.framework */; };
+		F9FEEA1A1C47956200085DD8 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E0B6CD149FD17300262B0A /* Security.framework */; };
+		F9FEEA1B1C47957700085DD8 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F959131214DC132900A3EB94 /* CFNetwork.framework */; };
+		F9FEEA1C1C47957700085DD8 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E0B6CD149FD17300262B0A /* Security.framework */; };
+		F9FEEA1D1C4795A300085DD8 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F959131214DC132900A3EB94 /* CFNetwork.framework */; };
+		F9FEEA1E1C4795A300085DD8 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E0B6CD149FD17300262B0A /* Security.framework */; };
+		F9FEEA1F1C4795D700085DD8 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F959131214DC132900A3EB94 /* CFNetwork.framework */; };
+		F9FEEA201C4795D700085DD8 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E0B6CD149FD17300262B0A /* Security.framework */; };
+		F9FEEA211C4795F000085DD8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E0B685149F607800262B0A /* CoreGraphics.framework */; };
+		F9FEEA221C47960D00085DD8 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F959131214DC132900A3EB94 /* CFNetwork.framework */; };
+		F9FEEA231C47960D00085DD8 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E0B6CD149FD17300262B0A /* Security.framework */; };
+		F9FEEA261C479B7800085DD8 /* license.bin in Resources */ = {isa = PBXBuildFile; fileRef = F9FEEA251C479B7800085DD8 /* license.bin */; };
 		F9FF0EB7160E618F00AEB3B7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9FF0EB6160E618F00AEB3B7 /* Default-568h@2x.png */; };
 		F9FF0EB8160E618F00AEB3B7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9FF0EB6160E618F00AEB3B7 /* Default-568h@2x.png */; };
 		F9FF0EB9160E618F00AEB3B7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9FF0EB6160E618F00AEB3B7 /* Default-568h@2x.png */; };
@@ -277,6 +292,7 @@
 		F9E0B6C7149FD07F00262B0A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		F9E0B6C8149FD07F00262B0A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F9E0B6CD149FD17300262B0A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		F9FEEA251C479B7800085DD8 /* license.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = license.bin; sourceTree = "<group>"; };
 		F9FF0EB6160E618F00AEB3B7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -286,6 +302,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9733D4B1BE42EDA003E2112 /* CommLibiOS.a in Frameworks */,
+				F9FEEA221C47960D00085DD8 /* CFNetwork.framework in Frameworks */,
+				F9FEEA231C47960D00085DD8 /* Security.framework in Frameworks */,
 				F9046D0C155D42AA00658F91 /* UIKit.framework in Frameworks */,
 				F97C89211705854D00F0B611 /* CoreData.framework in Frameworks */,
 			);
@@ -296,6 +314,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9733D461BE42EBF003E2112 /* CommLibiOS.a in Frameworks */,
+				F9FEEA1B1C47957700085DD8 /* CFNetwork.framework in Frameworks */,
+				F9FEEA1C1C47957700085DD8 /* Security.framework in Frameworks */,
 				F98508AC1BE8B97A0052716C /* CoreData.framework in Frameworks */,
 				F90E309B14A1012E00F183FC /* UIKit.framework in Frameworks */,
 			);
@@ -306,6 +326,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9733D471BE42EC5003E2112 /* CommLibiOS.a in Frameworks */,
+				F9FEEA1D1C4795A300085DD8 /* CFNetwork.framework in Frameworks */,
+				F9FEEA1E1C4795A300085DD8 /* Security.framework in Frameworks */,
 				F90E30C114A10F3800F183FC /* UIKit.framework in Frameworks */,
 				F97C891D1705853300F0B611 /* CoreData.framework in Frameworks */,
 			);
@@ -316,6 +338,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9733D481BE42ECA003E2112 /* CommLibiOS.a in Frameworks */,
+				F9FEEA161C4794F400085DD8 /* Security.framework in Frameworks */,
+				F9FEEA151C4794DC00085DD8 /* CFNetwork.framework in Frameworks */,
 				F90E30E614A1150800F183FC /* UIKit.framework in Frameworks */,
 				F97C891E1705853A00F0B611 /* CoreData.framework in Frameworks */,
 			);
@@ -326,6 +350,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9733D491BE42ED0003E2112 /* CommLibiOS.a in Frameworks */,
+				F9FEEA171C47951800085DD8 /* CFNetwork.framework in Frameworks */,
+				F9FEEA181C47953300085DD8 /* Security.framework in Frameworks */,
 				F90E310714A1153800F183FC /* UIKit.framework in Frameworks */,
 				F97C891F1705854100F0B611 /* CoreData.framework in Frameworks */,
 			);
@@ -336,9 +362,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9733D4A1BE42ED5003E2112 /* CommLibiOS.a in Frameworks */,
+				F9FEEA211C4795F000085DD8 /* CoreGraphics.framework in Frameworks */,
+				F9FEEA1F1C4795D700085DD8 /* CFNetwork.framework in Frameworks */,
+				F9FEEA201C4795D700085DD8 /* Security.framework in Frameworks */,
 				F90E312814A1155E00F183FC /* UIKit.framework in Frameworks */,
 				F97C89201705854700F0B611 /* CoreData.framework in Frameworks */,
-				F9C3F22D1BAC4E6000421D56 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,6 +401,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9733D451BE42EB7003E2112 /* CommLibiOS.a in Frameworks */,
+				F9FEEA191C47956200085DD8 /* CFNetwork.framework in Frameworks */,
+				F9FEEA1A1C47956200085DD8 /* Security.framework in Frameworks */,
 				F9C3F22B1BAC4CC800421D56 /* UIKit.framework in Frameworks */,
 				F9C3F22C1BAC4D5900421D56 /* CoreData.framework in Frameworks */,
 			);
@@ -678,6 +708,7 @@
 		F9E0B672149F607700262B0A = {
 			isa = PBXGroup;
 			children = (
+				F9FEEA241C479B7800085DD8 /* com.themidnightcoders.license */,
 				F98508C41BE8BD700052716C /* Bridging-Header.h */,
 				F9D5C1721BB52F8A00CA85F6 /* README.md */,
 				F9733D421BE42E77003E2112 /* doc */,
@@ -753,6 +784,15 @@
 				F9E0B6BD149FD07E00262B0A /* HttpRemoting-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F9FEEA241C479B7800085DD8 /* com.themidnightcoders.license */ = {
+			isa = PBXGroup;
+			children = (
+				F9FEEA251C479B7800085DD8 /* license.bin */,
+			);
+			name = com.themidnightcoders.license;
+			path = ../../WebORBiOS/CommLibiOS/com.themidnightcoders.license;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1036,6 +1076,7 @@
 				F90E311B14A1153900F183FC /* MainStoryboard_iPad.storyboard in Resources */,
 				F90E314714A11F6A00F183FC /* RSO-SM.png in Resources */,
 				F90E314814A11F7200F183FC /* RSO.png in Resources */,
+				F9FEEA261C479B7800085DD8 /* license.bin in Resources */,
 				F90E314F14A12EF100F183FC /* weborb.png in Resources */,
 				F9FF0EBB160E618F00AEB3B7 /* Default-568h@2x.png in Resources */,
 			);
@@ -1568,6 +1609,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.themidnightcoders.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				VALID_ARCHS = "i386 arm64 armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -1588,6 +1630,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.themidnightcoders.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				VALID_ARCHS = "i386 arm64 armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -1908,6 +1951,7 @@
 				F98508C21BE8BABF0052716C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F998ECF415C030AB000D49EA /* Build configuration list for PBXNativeTarget "SharedPhoto" */ = {
 			isa = XCConfigurationList;
