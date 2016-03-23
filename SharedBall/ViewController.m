@@ -6,6 +6,8 @@
 //  Copyright 2011 The Midnight Coders, Inc. All rights reserved.
 //
 
+#define _WEBORB_ 0
+
 #import "ViewController.h"
 #import <mach/mach.h>
 #import <mach/mach_host.h>
@@ -13,6 +15,9 @@
 #import "DEBUG.h"
 
 #define BARBUTTON(TITLE, SELECTOR) [[UIBarButtonItem alloc] initWithTitle:TITLE style:UIBarButtonItemStylePlain target:self action:SELECTOR]
+
+//static NSString *host = @"rtmp://10.0.1.62:1935/live";
+static NSString *host = @"rtmp://110.92.24.106:1935/m888/1";
 
 @implementation ViewController
 
@@ -62,7 +67,7 @@
         printf("connectSO SEND ----> getSharedObject\n");
         
         // send "getSharedObject (+ connect)"
-#if 0
+#if _WEBORB_
         NSString *name = @"BallControl";
 #else
         NSString *name = @"ballPosition";
@@ -99,7 +104,7 @@
         return;
     
     activeImage.center = point;
-#if 0
+#if _WEBORB_
     // setAttributes
     NSMutableDictionary *dict = [NSMutableDictionary dictionary];    
     [dict setValue:[NSNumber numberWithFloat:point.x] forKey:@"x"];
@@ -125,7 +130,7 @@
     
     state = 1;
     
-    self.title = [NSString stringWithFormat:@"%@:%@/%@", hostTextField.text, portTextField.text, appTextField.text];
+    self.title = host; //[NSString stringWithFormat:@"%@:%@/%@", hostTextField.text, portTextField.text, appTextField.text];
     self.navigationItem.rightBarButtonItem = BARBUTTON(@"Disconnect", @selector(doDisconnect:));
     
     btnProtocol.hidden = YES;
@@ -167,7 +172,7 @@
 
 -(void)doConnect:(id)sender {				
     
-    NSString *protocol = (isRTMPS) ? @"rtmps://%@:%d/%@" : @"rtmp://%@:%d/%@";
+    NSString *protocol = host; //(isRTMPS) ? @"rtmps://%@:%d/%@" : @"rtmp://%@:%d/%@";
     NSString *url = [NSString stringWithFormat:protocol, hostTextField.text, [portTextField.text intValue], appTextField.text];
     
     if (socket)
@@ -269,7 +274,7 @@
 	hostTextField.returnKeyType = UIReturnKeyDone;
 	hostTextField.clearButtonMode = UITextFieldViewModeWhileEditing;
 	//hostTextField.text = @"localhost";
-    //hostTextField.text = @"192.168.0.103";
+    //hostTextField.text = @"192.168.1.25";
     hostTextField.text = @"10.0.1.62";
  	hostTextField.delegate = self;
 	[self.view addSubview:hostTextField];
@@ -323,7 +328,7 @@
     socket = nil;
     clientSO = nil;
     
-    [DebLog setIsActive:YES];
+    //[DebLog setIsActive:YES];
    
 	// Do any additional setup after loading the view, typically from a nib.
 }
@@ -477,7 +482,7 @@
 
 -(void)onSharedObjectUpdate:(id <IClientSharedObject>)so withDictionary:(NSDictionary *)values {
 	NSLog(@"ISharedObjectListener -> onSharedObjectUpdate('%@') withDictionary:%@", [so getName], values);
-#if 0
+#if _WEBORB_
     NSDictionary *ballCoord = [values valueForKey:@"ballCoordinates"];
     NSNumber *x = [ballCoord valueForKey:@"x"];
     NSNumber *y = [ballCoord valueForKey:@"y"];
