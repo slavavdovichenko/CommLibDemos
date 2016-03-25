@@ -16,8 +16,7 @@
 
 #define BARBUTTON(TITLE, SELECTOR) [[UIBarButtonItem alloc] initWithTitle:TITLE style:UIBarButtonItemStylePlain target:self action:SELECTOR]
 
-//static NSString *host = @"rtmp://10.0.1.62:1935/live";
-static NSString *host = @"rtmp://110.92.24.106:1935/m888/1";
+static NSString *host = @"rtmp://10.0.1.62:1935/live";
 
 @implementation ViewController
 
